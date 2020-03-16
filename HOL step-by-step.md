@@ -23,7 +23,7 @@ Before moving ahead, Verify that **SQL Pool and Spark Pool** are created.
 
 ![SQL Pool.](images/sqlandsparkpool.png)
 
-### Task 1: 
+### Task 1: Create the ADLS GEN2 linked service
 
 
 
