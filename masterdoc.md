@@ -14,22 +14,20 @@ Before initiating the hands-on lab, you will setup an environment to use for the
 
 2. On the **Custom deployment** blade, select the existing resource group **ODL-synapse-XXXXXX** for the **Resource group** field.
 
-3. Provide the **Deployment Id** , you will find it at the right top corner of azure portal.
+3. Provide the **Deployment Id** ,you will find it at the right top corner of azure portal.
 
     ![Deployment Id.](images/deployment-id.png)
 
-4. Select **Save**.
+4. Check the **I agree to the terms and conditions stated above** checkbox.
 
-5. Check the **I agree to the terms and conditions stated above** checkbox.
+5. Select **Purchase**.
 
-6. Select **Purchase**.
-
-7. The deployment will take 15-30 minutes to complete. Continue to the next Task while this is deploying.
+6. The deployment will take 15-30 minutes to complete. Continue to the next Task while this is deploying.
 
     To view the progress, select the **Deployments** link, then select the **Microsoft.Template** deployment.
 
-    ![View template deployment status.](images/deployement-status.png Resource group deployments")
+    ![View template deployment status.](images/deployment-status.png)
 
-8. The deployment will take around 10 minutes to complete.
+7. The deployment will take around 10 minutes to complete.
 
-9. You should follow all the steps provided *before* performing the Hands-on lab.
+8. You should follow all the steps provided *before* performing the Hands-on lab.
