@@ -40,10 +40,29 @@ Before moving ahead, Verify that **SQL Pool and Spark Pool** are created.
 Provide the following details :
 - Name : **CoreDataLakeStorageBackup**
 - Select the subscription where the ADLS storage account is deployed
--	Select the ALDS Storage account
+-	Select the ADLS Storage account
 - Test the connection and then click on **create**
 
 ![Azure Data Lake Storage Gen2 linked service details](images/2.png)
+
+### Task 2: Create the Azure Synapse Analytics linked service
+	
+ 1. Click on **+New** & select **Azure Synapse Analytics** for creating Synapse Analytics linked service and click on **continue**.
+ 
+![Azure Synapse analytics](images/3.png)
+
+Provide the following details:
+ - Name : **CoreSQLPoolBackup**
+ -	Select Enter manually 
+ - Fully qualified domain name: labworkspaceXXXXXX.database.windows.net
+ -	Database name: sqlpool
+ - Authentication type: SQL authentication
+ - User name: sqladmin
+ - Password: IgniteRocks!!7112019
+ - Test the connection and click on **create**
+
+![Azure Synapse analytics linked service](images/4.png)
+
 
 
 
