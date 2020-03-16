@@ -80,13 +80,37 @@ one elective of your choice.
   
 ### Task 4: Create the Power BI linked service
 
-   - Inorder to create Power BI linked service firstly we need to create a PowerBI workspace.
- 
- 1. Create a Power BI workspace
-  
+   Inorder to create Power BI linked service firstly we need to create a PowerBI workspace.
+
+1. Create a Power BI workspace
    - Login to http://app.powerbi.com/  using your AAD account.
+   - Navigate to Workspaces -> Create a workspace
+   
+     ![Create workspace](images/7.png)
+
    - Create a PowerBI workspace and name it **labignitePBIxxxxxx**
    - Click on **Save**
+   
+     ![Powerbi workspace](images/8.png)
+     
+2. Now create a PowerBI linked service
+
+  - Click on **+New** under the Manage Section->Linked services and select **Power BI** for creating Power BI linked service.
+       
+   ![Powerbi](images/9.png)
+   
+  Provide the following details
+  - Name : **labignitePBI**
+  - Select your PBI workspace which you created in the previous step
+  - Test the connection and click on **create**
+  
+     ![Powerbi linked service ](images/10.png)
+
+
+   
+
+   
+   
    
    
   
