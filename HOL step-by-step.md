@@ -171,8 +171,6 @@ one elective of your choice.
    - **Run**  **CREATE SCHEMA [Backup]** command
    - **Publish** the changes made after creating both the schemas.
    
-   ![schema backup ](images/18.png)
-
 
 
     
