@@ -2,13 +2,13 @@
 
 ## Before the hands-on lab
 
-Duration: 30 minutes
+Duration: 20 minutes
 
 Before initiating the hands-on lab, you will setup an environment to use for the rest of the exercises.
 
 ### Task 1: Deploy Lab VM Resources to Azure
 
-1. Select the following **Deploy to Azure** button to deploy the ARM Template with the Lab VM resources for this lab. This link will deep link into the Azure Portal, passing in the ARM Template for deploying the resources for this lab.
+1. Select the following **Deploy to Azure** button to deploy the ARM Template with the Lab resources for this lab. This link will deep link into the Azure Portal, passing in the ARM Template for deploying the resources for this lab.
 
     [![Deploy to Azure button.](images/azure-deploy-button-small.png "Deploy to Azure")](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FSpektraSystems%2FBuilding-an-end-to-end-analytics-pipeline-in-Microsoft-Azure%2Fmaster%2Fscripts%2Ftemplate.json)
 
