@@ -2,7 +2,7 @@
 
 ## Abstract and learning objectives
 
-"Driving Company” provides payment processing services for businesses. It is designing and
+Driving Company provides payment processing services for businesses. It is designing and
 implementing a Proof of Concept (PoC) for a unified data analytics platform. Their soft goals is to
 bring siloed teams to work together on a single platform.
 
@@ -49,7 +49,7 @@ Before moving ahead, Verify that **SQL Pool and Spark Pool** are created.
 	
  1. Click on **+New** & select **Azure Synapse Analytics** for creating Synapse Analytics linked service and click on **continue**.
  
-   ![Azure Synapse analytics](images/3.png)
+    ![Azure Synapse analytics](images/3.png)
 
  2. Provide the following details:
     - Name : **CoreSQLPoolBackup**
