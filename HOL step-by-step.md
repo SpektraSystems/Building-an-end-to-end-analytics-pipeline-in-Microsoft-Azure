@@ -70,11 +70,11 @@ Before moving ahead, Verify that **SQL Pool and Spark Pool** are created.
    ![Azure blob storage](images/5.png)
 
 2. Provide the following details
-    -Name : **Azure OpenDataset**
-    -Authentication Method : SAS URI
-    -SAS URL : https://azureopendatastorage.blob.core.windows.net/
-    -SAS Token :“”
-    -Test the connection and click on **create**
+    - Name : **Azure OpenDataset**
+    - Authentication Method : SAS URI
+    - SAS URL : https://azureopendatastorage.blob.core.windows.net/
+    - SAS Token :“”
+    - Test the connection and click on **create**
     
    ![Azure blob storage linked service](images/6.png)
 
