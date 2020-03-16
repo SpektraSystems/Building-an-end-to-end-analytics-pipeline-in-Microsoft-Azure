@@ -178,12 +178,16 @@ one elective of your choice.
  - Click on **Run** and then **Publish**.
  - Make sure 5 tables are created.
  
+   ![tables ](images/18.png)
+
+ 
 ### Task 3: Create Stored Procedures in SQL Pool.
  
  - Execute the SQL script **CreateStoredProcedures SETUP ONLY** which you imported in Exercise 2.
  - Click on **Run and then Publish**.
  - Make sure 7 stored procedures are created
 
+  ![stored procs ](images/19.png)
 
 
 
