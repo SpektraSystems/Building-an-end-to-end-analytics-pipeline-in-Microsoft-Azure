@@ -25,7 +25,10 @@ Before moving ahead, Verify that **SQL Pool and Spark Pool** are created.
 
 ### Task 1: Create the ADLS Gen2 linked service
 
-1. Navigate to the Synapse Workspace and click on Launch Synapse Studio.
+1. Navigate to the Synapse Workspace and click on **Launch Synapse Studio**.
+
+![Synapse studio.](images/synapsestudio.png)
+
 
 
 
