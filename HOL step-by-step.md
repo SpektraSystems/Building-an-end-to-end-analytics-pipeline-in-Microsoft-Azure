@@ -29,11 +29,13 @@ Before moving ahead, Verify that **SQL Pool and Spark Pool** are created.
 
 ![Synapse studio.](images/synapsestudio.png)
 
-2. Create ADLS Linked service by clicking on **Manage** on the Left Pane and then clicking on **+New** 
+2. Create **ADLS Gen 2** linked service by clicking on **Manage** on the Left Pane and then clicking on **+New** 
 
-![Manage](images/linked-service.png)
+![Linked service](images/linked-service.png)
 
 - Select the Azure Data Lake Storage Gen2 and click on continue.
+ 
+![Azure Data Lake Storage Gen2](images/1.png)
 
 
 
