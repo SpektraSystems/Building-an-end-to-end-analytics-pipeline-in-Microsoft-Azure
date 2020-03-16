@@ -105,6 +105,41 @@ one elective of your choice.
      - Test the connection and click on **create**
   
     ![Powerbi linked service ](images/010.png)
+    
+    
+## Exercise 2: Import all the artifacts and set the credentials for SQL Pool and SQL OD in the Synapse Workspace
+
+### Task 1: Import all the SQL scripts and notebooks
+
+1. Import all the **SQL scripts**
+
+   ![sql scripts ](images/11.png)
+   
+2. Import all the **notebooks**
+
+   ![notebooks ](images/12.png)
+   
+3. Once you finish importing all the SQL scripts and the notebooks, Click on **publish all** .
+   
+   ![notebooks and scripts ](images/13.png)
+   
+### Task 2: Set the credentials for SQL Pool
+
+1. Execute the SQL scripts
+        SQLPoolcredentials SETUP ONLY for SQL pool
+	Make sure you replace the username and connect to sqlpool as shown:
+	Click on Run
+
+  
+   
+
+
+   
+
+
+
+
+    
 
 
    
