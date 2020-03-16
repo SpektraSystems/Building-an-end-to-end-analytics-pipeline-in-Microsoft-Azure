@@ -33,9 +33,19 @@ Before moving ahead, Verify that **SQL Pool and Spark Pool** are created.
 
 ![Linked service](images/linked-service.png)
 
-- Select the Azure Data Lake Storage Gen2 and click on continue.
+- Select the **Azure Data Lake Storage Gen2** and click on **continue**.
  
 ![Azure Data Lake Storage Gen2](images/1.png)
+
+Provide the following details :
+- Name : **CoreDataLakeStorageBackup**
+- Select the subscription where the ADLS storage account is deployed
+-	Select the ALDS Storage account
+- Test the connection and then click on **create**
+
+![Azure Data Lake Storage Gen2 linked service details](images/2.png)
+
+
 
 
 
