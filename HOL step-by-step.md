@@ -27,41 +27,41 @@ Before moving ahead, Verify that **SQL Pool and Spark Pool** are created.
 
 1. Navigate to the Synapse Workspace and click on **Launch Synapse Studio**.
 
-![Synapse studio.](images/synapsestudio.png)
+   ![Synapse studio.](images/synapsestudio.png)
 
 2. Create **ADLS Gen 2** linked service by clicking on **Manage** on the Left Pane and then clicking on **+New** 
 
-![Linked service](images/linked-service.png)
+   ![Linked service](images/linked-service.png)
 
 - Select the **Azure Data Lake Storage Gen2** and click on **continue**.
  
-![Azure Data Lake Storage Gen2](images/1.png)
+  ![Azure Data Lake Storage Gen2](images/1.png)
 
- Provide the following details :
-- Name : **CoreDataLakeStorageBackup**
-- Select the subscription where the ADLS storage account is deployed
--	Select the ADLS Storage account
-- Test the connection and then click on **create**
+   Provide the following details :
+   - Name : **CoreDataLakeStorageBackup**
+   - Select the subscription where the ADLS storage account is deployed
+   - Select the ADLS Storage account
+   - Test the connection and then click on **create**
 
-![Azure Data Lake Storage Gen2 linked service details](images/2.png)
+  ![Azure Data Lake Storage Gen2 linked service details](images/2.png)
 
 ### Task 2: Create the Azure Synapse Analytics linked service
 	
  1. Click on **+New** & select **Azure Synapse Analytics** for creating Synapse Analytics linked service and click on **continue**.
  
-![Azure Synapse analytics](images/3.png)
+   ![Azure Synapse analytics](images/3.png)
 
  2. Provide the following details:
- - Name : **CoreSQLPoolBackup**
- - Select Enter manually 
- - Fully qualified domain name: labworkspaceXXXXXX.database.windows.net
- - Database name: sqlpool
- - Authentication type: SQL authentication
- - User name: sqladmin
- - Password: IgniteRocks!!7112019
- - Test the connection and click on **create**
+    - Name : **CoreSQLPoolBackup**
+    - Select Enter manually 
+    - Fully qualified domain name: labworkspaceXXXXXX.database.windows.net
+    - Database name: sqlpool
+    - Authentication type: SQL authentication
+    - User name: sqladmin
+    - Password: IgniteRocks!!7112019
+    - Test the connection and click on **create**
 
-![Azure Synapse analytics linked service](images/4.png)
+    ![Azure Synapse analytics linked service](images/4.png)
 
 ### Task 3: Create the Azure Open Dataset linked service
 
@@ -76,7 +76,7 @@ Before moving ahead, Verify that **SQL Pool and Spark Pool** are created.
     -SAS Token :“”
     -Test the connection and click on **create**
     
-    ![Azure blob storage linked service](images/5.png)
+   ![Azure blob storage linked service](images/6.png)
 
     
 
