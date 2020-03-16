@@ -21,8 +21,7 @@ one elective of your choice.
 
 Before moving ahead, Verify that SQL Pool and Spark Pool are created.
 
-    !.[SQL Pool.].(images/sqlandsparkpool.png)
-
+    ![SQL Pool.](images/sqlandsparkpool.png)
 
 ### Task 1: 
 
