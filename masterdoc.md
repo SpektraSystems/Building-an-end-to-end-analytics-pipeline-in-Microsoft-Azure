@@ -6,7 +6,7 @@ Duration: 20 minutes
 
 Before initiating the hands-on lab, you will setup an environment to use for the rest of the exercises.
 
-### Task 1: Deploy Lab VM Resources to Azure
+### Task 1: Deploy Lab Resources to Azure
 
 1. Select the following **Deploy to Azure** button to deploy the ARM Template with the Lab resources for this lab. This link will deep link into the Azure Portal, passing in the ARM Template for deploying the resources for this lab.
 
