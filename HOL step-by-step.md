@@ -77,6 +77,20 @@ one elective of your choice.
     - Test the connection and click on **create**
     
    ![Azure blob storage linked service](images/6.png)
+  
+### Task 4: Create the Power BI linked service
+
+   - Inorder to create Power BI linked service firstly we need to create a PowerBI workspace.
+ 
+ 1. Create a Power BI workspace
+  
+   - Login to http://app.powerbi.com/  using your AAD account.
+   - Create a PowerBI workspace and name it **labignitePBIxxxxxx**
+   - Click on **Save**
+   
+   
+  
+
 
     
 
