@@ -156,7 +156,7 @@ one elective of your choice.
 
 ## Exercise 3: Create Schemas, Tables, Stored Procedures and Datasets for SQL Pool.
 
-### Task 1: Create Schemas for SQL Pool.
+### Task 1: Create Schemas in SQL Pool.
 
 1. Create **Staging** schema
 
@@ -171,6 +171,20 @@ one elective of your choice.
    - **Run**  **CREATE SCHEMA [Backup]** command
    - **Publish** the changes made after creating both the schemas.
    
+   
+### Task 2: Create Tables in SQL Pool.
+ 
+ - Execute the SQL script **CreateStagingBackupTables SETUP ONLY** which you imported in Exercise 2.
+ - Click on **Run** and then **Publish**.
+ - Make sure 5 tables are created.
+ 
+### Task 3: Create Stored Procedures in SQL Pool.
+ 
+ - Execute the SQL script **CreateStoredProcedures SETUP ONLY** which you imported in Exercise 2.
+ - Click on **Run and then Publish**.
+ - Make sure 7 stored procedures are created
+
+
 
 
     
