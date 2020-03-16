@@ -154,10 +154,24 @@ one elective of your choice.
  
     ![sql od cred ](images/16.png)
 
+## Exercise 3: Create Schemas, Tables, Stored Procedures and Datasets for SQL Pool.
 
+### Task 1: Create Schemas for SQL Pool.
 
+1. Create **Staging** schema
+
+  - Navigate to **Data**-> Databases ->**SQL Pool**->**Schemas**->**New SQL Script**->**New Schema**
+  - **Run** **CREATE SCHEMA [Staging]** command.
+  
+  ![schemas ](images/17.png)
+  
+2. Create **Backup** Schema
+
+   - Navigate to **Data**-> Databases ->**SQL Pool**->**Schemas**->**New SQL Script**->**New Schema**
+   - **Run**  **CREATE SCHEMA [Backup]** command
+   - **Publish** the changes made after creating both the schemas.
    
-
+   ![schema backup ](images/18.png)
 
 
 
