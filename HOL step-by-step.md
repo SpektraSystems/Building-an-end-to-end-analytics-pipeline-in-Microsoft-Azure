@@ -37,7 +37,7 @@ Before moving ahead, Verify that **SQL Pool and Spark Pool** are created.
  
 ![Azure Data Lake Storage Gen2](images/1.png)
 
-Provide the following details :
+ Provide the following details :
 - Name : **CoreDataLakeStorageBackup**
 - Select the subscription where the ADLS storage account is deployed
 -	Select the ADLS Storage account
@@ -51,17 +51,36 @@ Provide the following details :
  
 ![Azure Synapse analytics](images/3.png)
 
-Provide the following details:
+ 2. Provide the following details:
  - Name : **CoreSQLPoolBackup**
- -	Select Enter manually 
+ - Select Enter manually 
  - Fully qualified domain name: labworkspaceXXXXXX.database.windows.net
- -	Database name: sqlpool
+ - Database name: sqlpool
  - Authentication type: SQL authentication
  - User name: sqladmin
  - Password: IgniteRocks!!7112019
  - Test the connection and click on **create**
 
 ![Azure Synapse analytics linked service](images/4.png)
+
+### Task 3: Create the Azure Open Dataset linked service
+
+1. Again, Click on +New and select **Azure Blob Storage** for creating Azure Open dataset Linked service.
+
+   ![Azure blob storage](images/5.png)
+
+2. Provide the following details
+    -Name : **Azure OpenDataset**
+    -Authentication Method : SAS URI
+    -SAS URL : https://azureopendatastorage.blob.core.windows.net/
+    -SAS Token :“”
+    -Test the connection and click on **create**
+    
+    ![Azure blob storage linked service](images/5.png)
+
+    
+
+
 
 
 
