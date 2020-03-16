@@ -33,6 +33,8 @@ Before moving ahead, Verify that **SQL Pool and Spark Pool** are created.
 
 ![Manage](images/linked-service.png)
 
+- Select the Azure Data Lake Storage Gen2 and click on continue.
+
 
 
 
