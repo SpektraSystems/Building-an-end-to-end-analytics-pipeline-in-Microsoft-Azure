@@ -29,6 +29,9 @@ Before moving ahead, Verify that **SQL Pool and Spark Pool** are created.
 
 ![Synapse studio.](images/synapsestudio.png)
 
+2. Create ADLS Linked service by clicking on **Manage** on the Left Pane and then clicking on **+New** 
+
+![Linked service.](images/linked service.png)
 
 
 
