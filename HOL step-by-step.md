@@ -31,7 +31,7 @@ Before moving ahead, Verify that **SQL Pool and Spark Pool** are created.
 
 2. Create ADLS Linked service by clicking on **Manage** on the Left Pane and then clicking on **+New** 
 
-![Manage](images/linked service.png)
+![Manage](images/linked-service.png)
 
 
 
