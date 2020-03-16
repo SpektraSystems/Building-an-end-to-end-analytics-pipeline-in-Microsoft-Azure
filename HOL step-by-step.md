@@ -125,13 +125,35 @@ one elective of your choice.
    
 ### Task 2: Set the credentials for SQL Pool
 
-1. Execute the SQL scripts
-        SQLPoolcredentials SETUP ONLY for SQL pool
-	Make sure you replace the username and connect to sqlpool as shown:
-	Click on Run
-
-  
+1. Execute the SQL script **SQLPoolcredentials SETUP ONLY**.
+     
+    - **SQLPoolcredentials SETUP ONLY** is the SQL script which you imported in task 1.
+    - **SQLPoolcredentials SETUP ONLY** SQL script is to assign the role of Database owner to the user.
+    - Make sure you **replace the username** with the username you are using for the lab and **connect to sqlpool** not sql on-demand.
+    - Click on **Run** and the output should show as command executed successfully.
+    
+    ![sql pool cred ](images/14.png)
+    
+    
+### Task 3: Set the credentials for SQL on-demand
    
+1. Execute the SQL script **SQLODStorageCredentials SETUP ONLY**
+    
+    - **SQLODStorageCredentials SETUP ONLY** is the SQL script which you imported in task 1.
+    - Make sure you **replace the Storage account name** that you are using in the lab and **connect to sql on-demand** not sql pool.
+    - Click on **Run** and the output should show as command executed successfully.
+    
+    ![sql on-demand cred ](images/15.png)
+  
+
+2. Execute the SQL script **SQLODCredentials SETUP ONLY**   
+
+    - **SQLODCredentials SETUP ONLY** is the SQL script which you imported in the task 1.
+    - Make sure you **replace the username** with the username you are using for the lab and **connect to sql on-demand** not sql pool.
+    - Click on **Run** and the output should show as command executed successfully.
+ 
+    ![sql od cred ](images/16.png)
+
 
 
    
