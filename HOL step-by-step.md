@@ -33,11 +33,11 @@ one elective of your choice.
 
    ![Linked service](images/linked-service.png)
 
-- Select the **Azure Data Lake Storage Gen2** and click on **continue**.
+3. Select the **Azure Data Lake Storage Gen2** and click on **continue**.
  
   ![Azure Data Lake Storage Gen2](images/1.png)
 
-   Provide the following details :
+4. Provide the following details :
    - Name : **CoreDataLakeStorageBackup**
    - Select the subscription where the ADLS storage account is deployed
    - Select the ADLS Storage account
