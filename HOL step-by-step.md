@@ -38,10 +38,10 @@ one elective of your choice.
    ![Azure Data Lake Storage Gen2](images/1.png)
 
 4. Provide the following details :
-   - Name : **CoreDataLakeStorageBackup**
-   - Select the subscription where the ADLS storage account is deployed
-   - Select the ADLS Storage account
-   - Test the connection and then click on **create**
+  - Name : **CoreDataLakeStorageBackup**
+  - Select the subscription where the ADLS storage account is deployed
+  - Select the ADLS Storage account
+  - Test the connection and then click on **create**
 
    ![Azure Data Lake Storage Gen2 linked service details](images/2.png)
 
@@ -202,21 +202,21 @@ one elective of your choice.
 
 2. Creation of **FHV Dataset**.
 
-   - Search for **ADLS Data Lake Storage Gen 2** and Click on **Continue**.
+  - Search for **ADLS Data Lake Storage Gen 2** and Click on **Continue**.
 
   ![dataset gen 2](images/21.png)
 
-   - Select **Parquet** as format of data and click continue.
+  - Select **Parquet** as format of data and click continue.
 
   ![datasets](images/22.png)
 
-   - Under Set Properties provide the name as **FHV**
+  - Under Set Properties provide the name as **FHV**
    
-   - Select the previously created Linked Service **CoreDataLakeStorageBackup**
+  - Select the previously created Linked Service **CoreDataLakeStorageBackup**
    
-   - Browse to the File Path nyctlc/fhv
+  - Browse to the File Path nyctlc/fhv
    
-   - Click on **OK**.The first dataset is now created.
+  - Click on **OK**.The first dataset is now created.
 
   ![fhv dataset](images/23.png)
 
