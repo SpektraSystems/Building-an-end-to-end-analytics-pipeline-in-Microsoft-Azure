@@ -89,18 +89,18 @@ one elective of your choice.
    - Login to http://app.powerbi.com/  using your AAD account.
    - Navigate to Workspaces -> Create a workspace
    
-     ![Create workspace](images/7.png)
+   ![Create workspace](images/7.png)
 
    - Create a PowerBI workspace and name it **labignitePBIxxxxxx**
    - Click on **Save**
    
-     ![Powerbi workspace](images/8.png)
+   ![Powerbi workspace](images/8.png)
      
 2. Now create a PowerBI linked service
 
    - Click on **+New** under the Manage Section->Linked services and select **Power BI** for creating Power BI linked service.
        
-     ![Powerbi](images/9.png)
+   ![Powerbi](images/9.png)
    
  3. Provide the following details
  
@@ -108,7 +108,7 @@ one elective of your choice.
      - Select your PBI workspace which you created in the previous step
      - Test the connection and click on **create**
   
-      ![Powerbi linked service ](images/010.png)
+    ![Powerbi linked service ](images/010.png)
     
     
 ## Exercise 2: Import all the artifacts and set the credentials for SQL Pool and SQL OD in the Synapse Workspace
