@@ -103,11 +103,12 @@ one elective of your choice.
      ![Powerbi](images/9.png)
    
  3. Provide the following details
+ 
      - Name : **labignitePBI**
      - Select your PBI workspace which you created in the previous step
      - Test the connection and click on **create**
   
-    ![Powerbi linked service ](images/010.png)
+     ![Powerbi linked service ](images/010.png)
     
     
 ## Exercise 2: Import all the artifacts and set the credentials for SQL Pool and SQL OD in the Synapse Workspace
