@@ -19,7 +19,7 @@ one elective of your choice.
 
 ## Exercise 1: Create the Linked services in the Synapse Workspace
 
-   -Before moving ahead, Verify that **SQL Pool and Spark Pool** are created.
+   - Before moving ahead, Verify that **SQL Pool and Spark Pool** are created.
 
    ![SQL Pool.](images/sqlandsparkpool.png)
 
