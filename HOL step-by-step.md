@@ -208,7 +208,7 @@ one elective of your choice.
 
    - Search for **ADLS Data Lake Storage Gen 2** and Click on **Continue**.
 
-   ![dataset gen 2](images/21.png)
+   ![dataset gen 2](images/021.png)
 
    - Select **Parquet** as format of data and click continue.
 
