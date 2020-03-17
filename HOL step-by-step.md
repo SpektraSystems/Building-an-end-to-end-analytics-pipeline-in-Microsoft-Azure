@@ -174,18 +174,22 @@ one elective of your choice.
    
 ### Task 2: Create Tables in SQL Pool.
  
- - Execute the SQL script **CreateStagingBackupTables SETUP ONLY** which you imported in Exercise 2.
- - Click on **Run** and then **Publish**.
- - Make sure 5 tables are created.
+ 1. Execute the SQL script **CreateStagingBackupTables SETUP ONLY** which you imported in Exercise 2.
+ 
+ 2. Click on **Run** and then **Publish**.
+ 
+ 3. Make sure 5 tables are created.
  
    ![tables ](images/18.png)
 
  
 ### Task 3: Create Stored Procedures in SQL Pool.
  
- - Execute the SQL script **CreateStoredProcedures SETUP ONLY** which you imported in Exercise 2.
- - Click on **Run and then Publish**.
- - Make sure 7 stored procedures are created
+1. Execute the SQL script **CreateStoredProcedures SETUP ONLY** which you imported in Exercise 2.
+
+2. Click on **Run and then Publish**.
+
+3. Make sure 7 stored procedures are created
 
   ![stored procs ](images/19.png)
 
@@ -196,27 +200,31 @@ one elective of your choice.
 
   ![datasets](images/20.png)
 
-- Creating **FHV Dataset**.
-- Search for **ADLS Data Lake Storage Gen 2** and Click on **Continue**.
+2. Creation of **FHV Dataset**.
 
- ![dataset gen 2](images/21.png)
+   - Search for **ADLS Data Lake Storage Gen 2** and Click on **Continue**.
 
-- Select **Parquet** as format of data and click continue.
+  ![dataset gen 2](images/21.png)
 
- ![datasets](images/22.png)
+   - Select **Parquet** as format of data and click continue.
 
-- Under Set Properties provide the name as **FHV**
-- Select the previously created Linked Service **CoreDataLakeStorageBackup**
-- Browse to the File Path nyctlc/fhv
-- Click on **OK**.The first dataset is now created.
+  ![datasets](images/22.png)
 
- ![fhv dataset](images/23.png)
+   - Under Set Properties provide the name as **FHV**
+   
+   - Select the previously created Linked Service **CoreDataLakeStorageBackup**
+   
+   - Browse to the File Path nyctlc/fhv
+   
+   - Click on **OK**.The first dataset is now created.
+
+  ![fhv dataset](images/23.png)
 
 2. Similarly create another 16 datasets by following the below list.
 
   ![datasets sixteen ](images/24.png)
 
-Make sure 17 datasets are created.
+  Make sure 17 datasets are created.
 
 ## Exercise 4: Create Pipeline and PowerBI dataset.
 
