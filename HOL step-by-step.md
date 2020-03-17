@@ -237,6 +237,15 @@ Make sure 17 datasets are created.
 4. Paste the code from **EXE2CopyDatatoSQL.json** and click on **Validate** to check if there any errors.
 
 
+### Task 2: Create the PowerBI dataset.
+
+1. Upload **Marketsharepbiview_PBI.csv** into the **Tempdata** folder by clicking on **Data** on the Left Pane, then Select tempdata container and then click on **Upload**.
+
+2. Browse for **Marketsharepbiview_PBI.csv** and then click on **Done**.
+3. Click on **Develop** on the left Pane and then import the Notebook **PBIReadViewDataIntoSQLPool**
+4. Click on **Configure session** on the Right side of the page.
+5. Configure the session as follows
+
 
 
     
