@@ -184,7 +184,7 @@ one elective of your choice.
  
  3. Make sure 5 tables are created.
  
-   ![tables ](images/18.png)
+    ![tables ](images/18.png)
 
  
 ### Task 3: Create Stored Procedures in SQL Pool.
@@ -195,20 +195,20 @@ one elective of your choice.
 
 3. Make sure 7 stored procedures are created
 
-  ![stored procs ](images/19.png)
+   ![stored procs ](images/19.png)
 
 
 ### Task 4: Create Datasets for the pipeline.
 
 1. Navigate to Data->Datasets-> **New Dataset**
 
-  ![datasets](images/20.png)
+   ![datasets](images/20.png)
 
 2. Creation of **FHV Dataset**.
 
   - Search for **ADLS Data Lake Storage Gen 2** and Click on **Continue**.
 
-  ![dataset gen 2](images/21.png)
+   ![dataset gen 2](images/21.png)
 
   - Select **Parquet** as format of data and click continue.
 
