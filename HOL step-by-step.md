@@ -106,7 +106,7 @@ one elective of your choice.
  
      - Name : **labignitePBI**
      - Select your PBI workspace which you created in the previous step
-     - Test the connection and click on **create**
+     - Click on **create**
   
     ![Powerbi linked service ](images/010.png)
     
