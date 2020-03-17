@@ -10,11 +10,11 @@ Duration: 20 minutes
 
 2. Select **Clone or download**, then select **Download Zip**.
 
-    ![Download Zip from Github repository.](images/labfiles.png)
+    ![Download Zip from Github repository.](images/labfiles-clone.png)
 
 3. Extract the zip file to your local machine, be sure to keep note of where you have extracted the files. You should now see a set of folders:
 
-    ![Windows Explorer showing the extracted files.](images/labfiles.png)
+    ![Windows Explorer showing the extracted files.](images/labfiles-c.png)
 
 ### Task 2: Deploy Lab Resources to Azure
 
