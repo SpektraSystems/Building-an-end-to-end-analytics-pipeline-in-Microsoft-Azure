@@ -40,7 +40,9 @@ one elective of your choice.
 4. Provide the following details :
 
    - Name : **CoreDataLakeStorageBackup**
+   
    - Select the subscription where the ADLS storage account is deployed
+   
    - Select the ADLS Storage account
    - Test the connection and then click on **create**
 
