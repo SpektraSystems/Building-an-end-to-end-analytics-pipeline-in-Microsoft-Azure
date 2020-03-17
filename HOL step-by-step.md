@@ -236,8 +236,20 @@ Make sure 17 datasets are created.
    
 4. Paste the code from **EXE2CopyDatatoSQL.json** and click on **Validate** to check if there any errors.
 
+### Task 2: Curate the  Yellow, Green Cab and FHV
 
-### Task 2: Create the PowerBI dataset.
+1. Navigate to **Develop**->**Notebooks**
+
+2. FHV SETUP ONLY,YellowCab SETUP ONLY and GreenCab SETUP ONLY are the notebooks which you imported in Exercise 2.
+
+3. Run the Notebook **FHV SETUP ONLY**
+
+4. Run the Notebook **YellowCab SETUP ONLY**
+
+5. Run the Notebook **GreenCab SETUP ONLY**
+
+
+### Task 3: Create the PowerBI dataset.
 
 1. Upload **Marketsharepbiview_PBI.csv** into the **Tempdata** folder by clicking on **Data** on the Left Pane, then Select tempdata container and then click on **Upload**.
 
