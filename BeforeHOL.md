@@ -4,7 +4,19 @@
 
 Duration: 20 minutes
 
-### Task 1: Deploy Lab Resources to Azure
+### Task 1: Download the lab files
+
+1. Open a browser window to the Cloud Workshop GitHub repository (<https://github.com/SpektraSystems/Building-an-end-to-end-analytics-pipeline-in-Microsoft-Azure>).
+
+2. Select **Clone or download**, then select **Download Zip**.
+
+    ![Download Zip from Github repository.](images/labfiles.png)
+
+3. Extract the zip file to your local machine, be sure to keep note of where you have extracted the files. You should now see a set of folders:
+
+    ![Windows Explorer showing the extracted files.](images/labfiles.png)
+
+### Task 2: Deploy Lab Resources to Azure
 
 1. Select the following **Deploy to Azure** button to deploy the ARM Template with the Lab resources for this lab. This link will deep link into the Azure Portal, passing in the ARM Template for deploying the resources for this lab.
 
