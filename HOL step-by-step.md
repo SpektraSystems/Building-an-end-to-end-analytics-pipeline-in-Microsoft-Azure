@@ -160,16 +160,16 @@ one elective of your choice.
 
 1. Create **Staging** schema
 
-  - Navigate to **Data**-> Databases ->**SQL Pool**->**Schemas**->**New SQL Script**->**New Schema**
-  - **Run** **CREATE SCHEMA [Staging]** command.
+    - Navigate to **Data**-> Databases ->**SQL Pool**->**Schemas**->**New SQL Script**->**New Schema**
+    - **Run** **CREATE SCHEMA [Staging]** command.
   
-  ![schemas ](images/17.png)
+   ![schemas ](images/17.png)
   
 2. Create **Backup** Schema
 
-   - Navigate to **Data**-> Databases ->**SQL Pool**->**Schemas**->**New SQL Script**->**New Schema**
-   - **Run**  **CREATE SCHEMA [Backup]** command
-   - **Publish** the changes made after creating both the schemas.
+    - Navigate to **Data**-> Databases ->**SQL Pool**->**Schemas**->**New SQL Script**->**New Schema**
+    - **Run**  **CREATE SCHEMA [Backup]** command
+    - **Publish** the changes made after creating both the schemas.
    
    
 ### Task 2: Create Tables in SQL Pool.
