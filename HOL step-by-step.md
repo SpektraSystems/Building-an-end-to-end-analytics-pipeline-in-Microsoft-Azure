@@ -181,7 +181,7 @@ one elective of your choice.
    
 ### Task 2: Create Tables in SQL Pool.
  
- 1. Execute the SQL script **CreateStagingBackupTables SETUP ONLY** which you imported in Exercise 2.
+ 1. Execute the SQL script **CreateStagingBackupTables SETUP ONLY** which you imported in Exercise 2.Make sure you are connected to **sqlpool**
  
  2. Click on **Run** and then **Publish**.
  
