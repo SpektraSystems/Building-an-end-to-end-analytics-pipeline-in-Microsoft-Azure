@@ -135,6 +135,7 @@ one elective of your choice.
     - **SQLPoolcredentials SETUP ONLY** SQL script is to assign the role of Database owner to the user.
     - Make sure you **replace the username** with the username you are using for the lab and **connect to sqlpool** not sql on-demand.
     - Click on **Run** and the output should show as command executed successfully.
+    - And **publish** the changes.
     
     ![sql pool cred ](images/14.png)
     
@@ -146,6 +147,7 @@ one elective of your choice.
     - **SQLODStorageCredentials SETUP ONLY** is the SQL script which you imported in task 1.
     - Make sure you **replace the Storage account name** that you are using in the lab and **connect to sql on-demand** not sql pool.
     - Click on **Run** and the output should show as command executed successfully.
+    - And **publish** the changes.
     
     ![sql on-demand cred ](images/15.png)
   
@@ -155,6 +157,7 @@ one elective of your choice.
     - **SQLODCredentials SETUP ONLY** is the SQL script which you imported in the task 1.
     - Make sure you **replace the username** with the username you are using for the lab and **connect to sql on-demand** not sql pool.
     - Click on **Run** and the output should show as command executed successfully.
+    - And **publish** the changes.
  
     ![sql od cred ](images/16.png)
 
