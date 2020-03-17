@@ -265,7 +265,7 @@ one elective of your choice.
 
 1. Upload **Marketsharepbiview_PBI.csv** into the **Tempdata** folder by clicking on **Data** on the Left Pane, then Select tempdata      container and then click on **Upload**.
 
-  ![marketshare](images/28.png)
+   ![marketshare](images/28.png)
 
 2. Browse for **Marketsharepbiview_PBI.csv** and then click on **Done**.
 
