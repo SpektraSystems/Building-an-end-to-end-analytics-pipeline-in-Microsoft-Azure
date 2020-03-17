@@ -206,29 +206,29 @@ one elective of your choice.
 
 2. Creation of **FHV Dataset**.
 
-  - Search for **ADLS Data Lake Storage Gen 2** and Click on **Continue**.
+   - Search for **ADLS Data Lake Storage Gen 2** and Click on **Continue**.
 
    ![dataset gen 2](images/21.png)
 
-  - Select **Parquet** as format of data and click continue.
+   - Select **Parquet** as format of data and click continue.
 
-  ![datasets](images/22.png)
+   ![datasets](images/22.png)
+ 
+   - Under Set Properties provide the name as **FHV**
+   
+   - Select the previously created Linked Service **CoreDataLakeStorageBackup**
+   
+   - Browse to the File Path nyctlc/fhv
+   
+   - Click on **OK**.The first dataset is now created.
 
-  - Under Set Properties provide the name as **FHV**
-   
-  - Select the previously created Linked Service **CoreDataLakeStorageBackup**
-   
-  - Browse to the File Path nyctlc/fhv
-   
-  - Click on **OK**.The first dataset is now created.
-
-  ![fhv dataset](images/23.png)
+   ![fhv dataset](images/23.png)
 
 2. Similarly create another 16 datasets by following the below list.
 
-  ![datasets sixteen ](images/24.png)
+   ![datasets sixteen ](images/24.png)
 
-  Make sure 17 datasets are created.
+   Make sure 17 datasets are created.
 
 ## Exercise 4: Create Pipeline and PowerBI dataset.
 
