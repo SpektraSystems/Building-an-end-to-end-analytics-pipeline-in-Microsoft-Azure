@@ -35,7 +35,7 @@ one elective of your choice.
 
 3. Select the **Azure Data Lake Storage Gen2** and click on **continue**.
  
-  ![Azure Data Lake Storage Gen2](images/1.png)
+   ![Azure Data Lake Storage Gen2](images/1.png)
 
 4. Provide the following details :
    - Name : **CoreDataLakeStorageBackup**
@@ -43,7 +43,7 @@ one elective of your choice.
    - Select the ADLS Storage account
    - Test the connection and then click on **create**
 
-  ![Azure Data Lake Storage Gen2 linked service details](images/2.png)
+   ![Azure Data Lake Storage Gen2 linked service details](images/2.png)
 
 ### Task 2: Create the Azure Synapse Analytics linked service
 	
@@ -99,7 +99,7 @@ one elective of your choice.
        
      ![Powerbi](images/9.png)
    
-    Provide the following details
+ 3. Provide the following details
      - Name : **labignitePBI**
      - Select your PBI workspace which you created in the previous step
      - Test the connection and click on **create**
