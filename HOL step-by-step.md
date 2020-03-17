@@ -192,7 +192,7 @@ one elective of your choice.
  
 ### Task 3: Create Stored Procedures in SQL Pool.
  
-1. Execute the SQL script **CreateStoredProcedures SETUP ONLY** which you imported in Exercise 2.
+1. Execute the SQL script **CreateStoredProcedures SETUP ONLY** which you imported in Exercise 2.Make sure you are connected to **sqlpool**
 
 2. Click on **Run and then Publish**.
 
