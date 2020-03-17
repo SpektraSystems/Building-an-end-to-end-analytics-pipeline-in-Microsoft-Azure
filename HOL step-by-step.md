@@ -218,6 +218,25 @@ one elective of your choice.
 
 Make sure 17 datasets are created.
 
+## Exercise 4: Create Pipeline and PowerBI dataset.
+
+### Task 1: Create the pipeline.
+
+1. Create Pipeline **EXE2CopyDatatoSQL** by clicking on **Orchestrate**, then + Icon and click on Pipeline.
+
+  ![pipeline](images/25.png)
+  
+2. Name the Pipeline **Exe2CopyDatatoSQL**
+
+   ![pipeline copydata](images/26.png)
+   
+3. Now click on **Code** on the right corner of the page and paste the code provided and click on **OK**.
+
+   ![code](images/27.png)
+   
+4. Paste the code from **EXE2CopyDatatoSQL.json** and click on **Validate** to check if there any errors.
+
+
 
 
     
