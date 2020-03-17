@@ -108,7 +108,7 @@ one elective of your choice.
      - Select your PBI workspace which you created in the previous step
      - Test the connection and click on **create**
   
-    ![Powerbi linked service ](images/010.png)
+      ![Powerbi linked service ](images/010.png)
     
     
 ## Exercise 2: Import all the artifacts and set the credentials for SQL Pool and SQL OD in the Synapse Workspace
@@ -167,7 +167,7 @@ one elective of your choice.
     - Navigate to **Data**-> Databases ->**SQL Pool**->**Schemas**->**New SQL Script**->**New Schema**
     - **Run** **CREATE SCHEMA [Staging]** command.
   
-   ![schemas ](images/17.png)
+    ![schemas ](images/17.png)
   
 2. Create **Backup** Schema
 
