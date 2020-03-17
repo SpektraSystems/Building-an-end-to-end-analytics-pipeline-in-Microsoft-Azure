@@ -1,0 +1,1 @@
+  CREATE USER [<AAD User ID>@CloudLabsAIoutlook.onmicrosoft.com] FROM EXTERNAL PROVIDER;
