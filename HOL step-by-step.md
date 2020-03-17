@@ -115,11 +115,11 @@ one elective of your choice.
 
 ### Task 1: Import all the SQL scripts and notebooks
 
-1. Import all the **SQL scripts**
+1. Import all the **SQL scripts**.Navigate to **Develop** and +Icon then Click on Import 
 
    ![sql scripts ](images/11.png)
    
-2. Import all the **notebooks**
+2. Import all the **notebooks**.Navigate to **Develop** and +Icon then Click on Import 
 
    ![notebooks ](images/12.png)
    
