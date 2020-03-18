@@ -408,7 +408,7 @@ You will also learn the important concept of dataset by creating a new dataset.
 
   - Partition root path: **green**
 
-   ![green](images/48.png)
+    ![green](images/48.png)
 
 10. On Source Settings Edit the **GreenCab** Dataset 
 
@@ -482,8 +482,7 @@ You will also learn the important concept of dataset by creating a new dataset.
 
     ![debug_publish](images/58.png)
 
-35. Try to run the data flow in a pipeline by following the flow below (you will monitor that
-pipeline later on in task 5)
+35. Try to run the data flow in a pipeline by following the flow below (you will monitor that pipeline later on in task 5)
 
  - Click on **Orchestrate**
 
@@ -548,7 +547,7 @@ have triggered.
 5. You can get the detail of an activity by clicking to the binocular icon. In this case, you can see the performance of a copy command activity. Check the various details based on the different
 activities you ran. (Data Flow, notebook, SQL Script)
 
-  ![performance](images/66.png)
+   ![performance](images/66.png)
 
 ### Task 6: Monitor Spark applications
 
@@ -587,9 +586,9 @@ In this exercise you will be able to create a Power BI Report and build a visual
 
 3. Select from the Visualization the Line Chart and drag and drop the **PickupDate** into the Axis and the other fields into the Values and then adjust the report:
 
-  ![pickup date](images/72.png)
+   ![pickup date](images/72.png)
 
-  ![categorical](images/73.png)
+   ![categorical](images/73.png)
 
 4. You will now get your report
 
