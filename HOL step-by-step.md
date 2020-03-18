@@ -2,20 +2,11 @@
 
 ## Abstract and learning objectives
 
-Driving Company provides payment processing services for businesses. It is designing and
-implementing a Proof of Concept (PoC) for a unified data analytics platform. Their soft goals is to
-bring siloed teams to work together on a single platform.
+Driving Company provides payment processing services for businesses. It is designing and implementing a Proof of Concept (PoC) for a unified data analytics platform. Their soft goals is to bring siloed teams to work together on a single platform.
 
-In this lab, you will play the role of various persona: a data engineer, a business analyst and a data
-scientist. The workspace is already setup so you can focus on some of the core development
-capabilities of Azure Synapse Analytics.
+In this lab, you will play the role of various persona: a data engineer, a business analyst and a datascientist. The workspace is already setup in before the hands on part so you can focus on some of the core development capabilities of Azure Synapse Analytics.
 
-By the end of this workshop, you will have performed a non-exhaustive list of operations that
-combine the strength of Big Data and SQL analytics into a single platform.
-
-To show the breadth and flexibility of tasks you can accomplish on Arcadia, we have two sections to
-achieve: Core + Elective. We do expect you to finish the core but hope you can accomplish at least
-one elective of your choice.
+By the end of this workshop, you will have performed a non-exhaustive list of operations that combine the strength of Big Data and SQL analytics into a single platform.
 
 ## Exercise 1: Create the Linked services in the Synapse Workspace
 
@@ -335,11 +326,11 @@ one elective of your choice.
    
 ## Exercise 5: Explore the lake with SQL On-Demand and Spark
 
-This section will highlight how you can explore data using the engine of your choice.
+- This section will highlight how you can explore data using the engine of your choice.
    
 ### Task 1: Explore the lake with SQL On-Demand
    
-   In this task, you will browse your data lake. 
+- In this task, you will browse your data lake. 
    
 1. Go into the **YellowCab** folder, **select the year and month** folders of your choice, then **select a file**, right click and select **New SQL script**. A script is automatically generated. 
 
@@ -354,7 +345,7 @@ Notebook**. This will generate a notebook with PySpark code to load the data in 
 
 3. Attach the notebook to a **Spark pool** and Click on **run** to execute the command.
 
-![holiday backup](images/43.png)
+   ![holiday backup](images/43.png)
 
 ## Exercise 6: Build Modern Data Warehouse pipelines
 
@@ -372,19 +363,19 @@ by the connector!
 2. Select the notebook section and click on the notebook **EXE2 YellowCab**
 
 3. Configure and author your notebook:
-- Attach your **Spark Compute**
-- Select **Spark** as a language
-- Define the configuration of the session. Defining the configuration of a session enables you to increase the resources of running a   notebook. Use **4 executors** of medium size for that notebook. You want to run it fast!
+   - Attach your **Spark Compute**
+   - Select **Spark** as a language
+   - Define the configuration of the session. Defining the configuration of a session enables you to increase the resources of running a notebook. Use **4 executors** of medium size for that notebook. You want to run it fast!
 
-![configure session](images/80.png)
+   ![configure session](images/80.png)
 
 4. Click on **Publish**
 
-![publish](images/44.png)
+   ![publish](images/44.png)
 
-5.Click on **Run All**
+5. Click on **Run All**
 
-![runall](images/45.png)
+   ![runall](images/45.png)
 
 ### Task 2: Create and run a Dataflow with GreenCab dataset
 
@@ -397,13 +388,13 @@ You will also learn the important concept of dataset by creating a new dataset.
 
 3. Name the Data Flow activity **GreenCabTransformation**
 
-![dataflow](images/81.png)
+   ![dataflow](images/81.png)
 
 4. Click on Data Flow Debug, select **AutoResolveIntegrationRuntime** and click **Ok**
 
 5. Click on **Add Source**
 
-![add source](images/46.png)
+   ![add source](images/46.png)
 
 6. Select the dataset **GreenCab**
 
@@ -411,25 +402,25 @@ You will also learn the important concept of dataset by creating a new dataset.
 
 8. Select **Enable** sampling
 
-![enable](images/47.png)
+   ![enable](images/47.png)
 
 9. In the Source Options:
 
   - Partition root path: **green**
 
-![green](images/48.png)
+   ![green](images/48.png)
 
 10. On Source Settings Edit the **GreenCab** Dataset 
 
-![greencab](images/49.png)
+    ![greencab](images/49.png)
 
 11. **Import schema** From connection/store
 
-![schema](images/50.png)
+    ![schema](images/50.png)
 
 12. Click on + next to the GreenCab activity
 
-![greencab activityy](images/82.png)
+    ![greencab activityy](images/82.png)
 
 13. Select the **row modifier** filter
 
@@ -437,11 +428,11 @@ You will also learn the important concept of dataset by creating a new dataset.
 
 15. Click on **Filter on**
 
-![filter](images/51.png)
+    ![filter](images/51.png)
 
 16. Write the following in the box: in(['2015', '2016', '2017', '2018'],puYear)
 
-![pu year](images/52.png)
+    ![pu year](images/52.png)
 
 17. Click on **Save and Finish**
 
@@ -449,7 +440,7 @@ You will also learn the important concept of dataset by creating a new dataset.
 
 19. Select the **Select** Activity
 
-![select](images/53.png)
+    ![select](images/53.png)
 
 20. Enter the following for **Output stream name: FilterColumns**
 
@@ -457,17 +448,17 @@ You will also learn the important concept of dataset by creating a new dataset.
 
 22. **Select Automapping**
 
-![automapping](images/54.png)
+    ![automapping](images/54.png)
 
 23. Remove the columns: vendorID, lpepPickupDateTime, lpepDropoffDateTime, tripDistance,rateCodeId, storeAndFwdFlag, paymentType, fareAmount, extra, mtaTax,improvementSurcharge, tollsAmount, ehailFee, tripType.
 
-![columns](images/55.png)
+    ![columns](images/55.png)
 
 24. Click on + next to the Filter activity
 
 25. Select the **Sink** destination
 
-![sink](images/56.png)
+    ![sink](images/56.png)
 
 26. Call the output stream name **GreenCabSink**
 
@@ -485,11 +476,11 @@ You will also learn the important concept of dataset by creating a new dataset.
 
 33. If you preview the data of GreenCabSink, you should see the following:
 
-![greencabsink](images/57.png)
+    ![greencabsink](images/57.png)
 
 34. Turn of the **Debug Session** and click on **Publish all**
 
-![debug_publish](images/58.png)
+    ![debug_publish](images/58.png)
 
 35. Try to run the data flow in a pipeline by following the flow below (you will monitor that
 pipeline later on in task 5)
@@ -504,7 +495,7 @@ pipeline later on in task 5)
 
  - Click on Add and trigger and select **Trigger Now** (Do not wait for the result to finish (it will take 7 minutes – you will see the result in task 5))
 
-![trigger](images/59.png)
+   ![trigger](images/59.png)
 
 ### Task 3: Create Stored Procedures
 
@@ -515,11 +506,11 @@ the curated data is loaded in the SQL Pool.
  
 2. Click on **Run** and it will run the entire SQL script
 
-![run sql script](images/60.png)
+   ![run sql script](images/60.png)
 
 3. Check that you can see the four stored procedures by browsing your SQL Pool:
 
-![stored procedures ](images/61.png)
+   ![stored procedures ](images/61.png)
 
 ### Task 4: Understand a pipeline that contains all activities
 
@@ -531,7 +522,7 @@ the curated data is loaded in the SQL Pool.
 
 3. Check the various activities run in the pipeline
 
-![activities](images/62.png)
+   ![activities](images/62.png)
 
 ### Task 5: Monitor the pipeline
 
@@ -542,42 +533,42 @@ have triggered.
 
 2. Click into **Pipeline runs**, make sure that the time of filtering is set to Last 30 days
 
-![pipeline runs](images/63.png)
+   ![pipeline runs](images/63.png)
 
 3. Check the status of your pipeline. It should be in-progress
 
 4. To understand at a more granular level, the status of the activities in the pipeline, click on the pipeline
 
-![pipeline runs-activities](images/62.png)
+   ![pipeline runs-activities](images/62.png)
 
-![activity runs](images/64.png)
+   ![activity runs](images/64.png)
 
-![activity runs status](images/65.png)
+   ![activity runs status](images/65.png)
 
 5. You can get the detail of an activity by clicking to the binocular icon. In this case, you can see the performance of a copy command activity. Check the various details based on the different
 activities you ran. (Data Flow, notebook, SQL Script)
 
-![performance](images/66.png)
+  ![performance](images/66.png)
 
 ### Task 6: Monitor Spark applications
 
 - A Spark application consists of many activities that have run into a single session. A session is displayed as in-progress, failed or cancelled. When a user is done with her job, the application session ends as cancelled. It is by no mean a negative impact.
 
-1. Click at the section Monitoring
+1. Click at the section **Monitoring**
 
 2. Click into Spark Applications
 
-![spark applications](images/67.png)
+   ![spark applications](images/67.png)
 
 3. You can see the application name (and click into it for more details), see who submitted this job,
 the time, the stats, which pool template was leveraged and the job type.
 
-![spark applications stats](images/68.png)
+   ![spark applications stats](images/68.png)
 
 4. Click into one application and check the picture below highlighting some of the monitoring functionalities
 
-![log query](images/69.png)
-
+   ![log query](images/69.png)
+ 
 ## Exercise 7: Power BI Integration
 
 In this exercise you will be able to create a Power BI Report and build a visualization within Synapse Analytics leveraging previously created datasets.
@@ -588,25 +579,25 @@ In this exercise you will be able to create a Power BI Report and build a visual
 
   - Navigate to Develop->Power BI->PowerBI report and select the PowerBI report.
   
-  ![powerbi report](images/70.png)
+   ![powerbi report](images/70.png)
 
 2. The Power BI Report Builder will appear, You can now build your report based on the Imported SQL Dataset.
 
-![powerbi builder](images/71.png)
+   ![powerbi builder](images/71.png)
 
 3. Select from the Visualization the Line Chart and drag and drop the **PickupDate** into the Axis and the other fields into the Values and then adjust the report:
 
-![pickup date](images/72.png)
+  ![pickup date](images/72.png)
 
-![categorical](images/73.png)
+  ![categorical](images/73.png)
 
 4. You will now get your report
 
-![report](images/74.png)
+   ![report](images/74.png)
 
 5. You can Save the Report to the Workspace, You can view the report in both Synapse Analytics and PowerBI
 
-![save report](images/75.png)
+   ![save report](images/75.png)
 
 
 ## Exercise 8: High Performance Analysis with SQL Analytics Pool
@@ -619,7 +610,7 @@ in New York.
 
 2. **Example**:You can run a query that will aggregate the count of rides per day for each view and join these three views together per day. Display the results in a chart similar to below:
 
-![example](images/83.png)
+   ![example](images/83.png)
 
  - Select the SQL Script called Query Market Share and run the script against the SQL Pool database.
  - Select Chart
@@ -645,11 +636,11 @@ in New York.
 3. Run the script
 4. Check that the three views are available (refresh if needed the SQL Analytics On-Demand).
 
-![views](images/84.png)
+   ![views](images/84.png)
 
 5. **Example**: Run a query that will aggregate the count of rides per day for each view and join these three views together per day .Try to display the results in a chart similar to below:
 
-![views Example](images/76.png)
+   ![views Example](images/76.png)
 
  - Run the following SQL Script against SQL On-Demand and the database (not master):
   
@@ -662,28 +653,31 @@ in New York.
   ORDER BY PickupDateFHV ASC 
   
 6. Select Chart
+
 7. From the Y axis columns unselect PickupDateYellow
+
 8. Select PickupDateYellow for the X-Axis column
 
 ## Exercise 10: Data Science with Spark
 
 - In this exercise you will play the role of a Data Scientist that based on the NYC Yellow Cab Dataset (that tracks trips and various attributes) using Synapse Notebook creates a model to predict for a given trip whether there will be a tip or not.
 
-Create a new Notebook (for details check Exercise 7).
+Create a new Notebook.
+
 1. Configure and author your notebook:
-a. Attach your Spark Compute
-b. Select Spark as a language: **Pyspark**
-c. Click on **Add text** or **{} Add code** for each cell below:
+ - Attach your Spark Compute
+ - Select Spark as a language: **Pyspark**
+ - Click on **Add text** or **{} Add code** for each cell below:
 
-For text cell:
+   For text cell:
 
-![Text cell](images/77.png)
+   ![Text cell](images/77.png)
 
-For code cell:
+   For code cell:
 
-![Code cell](images/78.png)
+   ![Code cell](images/78.png)
 
-Cell 1 – **Text cell**
+   Cell 1 – **Text cell**
 
 ## Notebook :Predict NYC Taxi Tips using Spark ML and Azure Open Datasets
 
@@ -697,44 +691,44 @@ Cell 1 – **Text cell**
 
 1. **Ingest Data**
 
-Get the data from the Open Datasets store and then down sample using filtering and sampling to generate a smaller set of data to make it faster/easier to evaluate different approaches to prep for the modelling phase later in the notebook.
+   Get the data from the Open Datasets store and then down sample using filtering and sampling to generate a smaller set of data to make  it faster/easier to evaluate different approaches to prep for the modelling phase later in the notebook.
 
 2. **Exploratory Data Analysis**
-Look at the data and evaluate its suitability for use in a model, do this via some basic charts focused on tip values and relationships.
+   Look at the data and evaluate its suitability for use in a model, do this via some basic charts focused on tip values and       relationships.
 
-3.**Data Prep and Featurization**
+3. **Data Prep and Featurization**
 
-It's clear from the visualizations above that there are a bunch of outliers in the data. These will need to be filtered out in addition there are extra variables that are not going to be useful in the model we build at the end.
+   It's clear from the visualizations above that there are a bunch of outliers in the data. These will need to be filtered out in addition there are extra variables that are not going to be useful in the model we build at the end.
 
-Finally there is a need to create some new (derived) variables that will work better with the model.
+   Finally there is a need to create some new (derived) variables that will work better with the model.
 
-4.**Data Prep and Featurization Part 2**
+4. **Data Prep and Featurization Part 2**
 
-Having created new variables its now possible to drop the columns they were derived from so that the dataframe that goes into the model is the smallest in terms of number of variables, that is required.
-Also create some more features based on new columns from the first round.
+   Having created new variables its now possible to drop the columns they were derived from so that the dataframe that goes into the model is the smallest in terms of number of variables, that is required. Also create some more features based on new columns from the first round.
 
-5.**Encoding**
+5. **Encoding**
 
-Different ML alogirthms support different type sof input, for this example Logistic Regression is being used for Binry Classification. This means that any Categorical (string) variables must be converted to numbers.
+   Different ML alogirthms support different type sof input, for this example Logistic Regression is being used for Binary Classification. This means that any Categorical (string) variables must be converted to numbers.
 
-The process is not as simple as a "map" style function as the relationship between the numbers can introduce a bias in the resulting model, the approach is to index the variable and then encode using a standard approach called One Hot Encoding.
+   The process is not as simple as a "map" style function as the relationship between the numbers can introduce a bias in the resulting model, the approach is to index the variable and then encode using a standard approach called One Hot Encoding.
 
-This approach requires the encoder to "learn"/fit a model over the data in the Spark instance and then transform based on what was learnt.
+   This approach requires the encoder to "learn"/fit a model over the data in the Spark instance and then transform based on what was learnt.
 
-6.**Generation of Testing and Training Data Sets**
-Simple split, 70% for training and 30% for testing the model. Playing with this ratio may result in different models.
+6. **Generation of Testing and Training Data Sets**
+   
+   Simple split, 70% for training and 30% for testing the model. Playing with this ratio may result in different models.
 
-7.**Train the Model**
-Train the Logistic Regression model and then evaluate it using Area under ROC as the metric.
-The ROC is a graphical plot that illustrates the diagnostic ability.
-For our Model the “Area under ROC = 0.989821882951654” and this is considered excellent
+7. **Train the Model**
+   Train the Logistic Regression model and then evaluate it using Area under ROC as the metric.
+   The ROC is a graphical plot that illustrates the diagnostic ability.
+   For our Model the “Area under ROC = 0.989821882951654” and this is considered excellent
 
-8.**Evaluate and Visualize**
+8. **Evaluate and Visualize**
 
-Plot the actual curve to develop a better understanding of the model.
-See the Area under the ROC model:
+    Plot the actual curve to develop a better understanding of the model.
+    See the Area under the ROC model:
 
-![ROC graph](images/79.png)
+    ![ROC graph](images/79.png)
 
 
   
