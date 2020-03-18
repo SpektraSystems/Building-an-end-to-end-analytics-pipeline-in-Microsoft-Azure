@@ -515,7 +515,7 @@ the curated data is loaded in the SQL Pool.
 
 ![stored procedures ](images/61.png)
 
-### Task 3: Understand a pipeline that contains all activities
+### Task 4: Understand a pipeline that contains all activities
 
 - This pipeline had been run before the lab. This pipeline copied curated data from the lake into a SQL Pool
 as staging table. A staging table is a table optimized for loading/writing data. Once the copy activity was
@@ -529,6 +529,60 @@ whose goal is to provide strong read performance. Exercise 4 will highlight the 
 3. Check the various activities run in the pipeline
 
 ![activities](images/62.png)
+
+### Task 5: Monitor the pipeline
+
+- Synapse will offer a single pane of glass to monitor activities. We will first look at the pipeline that you
+have triggered.
+
+1. Click at the section **Monitoring**
+
+2. Click into **Pipeline runs**, make sure that the time of filtering is set to Last 30 days
+
+![pipeline runs](images/63.png)
+
+3. Check the status of your pipeline. It should be in-progress
+
+4. To understand at a more granular level, the status of the activities in the pipeline, click on the
+pipeline
+
+![pipeline runs-activities](images/64.png)
+
+![activity runs](images/65.png)
+
+5. You can get the detail of an activity by clicking to the binocular icon. In this case, you can see the performance of a copy command activity. Check the various details based on the different
+activities you ran. (Data Flow, notebook, SQL Script)
+
+![performance](images/66.png)
+
+### Task 6: Monitor Spark applications
+
+- A Spark application consists of many activities that have run into a single session. A session is displayed as in-progress, failed or cancelled. When a user is done with her job, the application session ends as cancelled. It is by no mean a negative impact.
+
+1. Click at the section Monitoring
+
+2. Click into Spark Applications
+
+![spark applications](images/67.png)
+
+3. You can see the application name (and click into it for more details), see who submitted this job,
+the time, the stats, which pool template was leveraged and the job type.
+
+![spark applications stats](images/68.png)
+
+4. Click into one application and check the picture below highlighting some of the monitoring functionalities
+
+![log query](images/69.png)
+
+## Exercise 7: Power BI Integration
+
+In this exercise you will be able to create a Power BI Report and build a visualization within Synapse Analytics leveraging previously created datasets.
+
+
+
+
+
+
 
 
 
