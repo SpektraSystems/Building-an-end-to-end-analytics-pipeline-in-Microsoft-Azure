@@ -221,10 +221,12 @@ By the end of this workshop, you will have performed a non-exhaustive list of op
    - Browse to the File Path nyctlc/fhv
    
    - Click on **OK**.The first dataset is now created.
+   
+   - **Publish** the changes made.
 
    ![fhv dataset](images/23.png)
 
-2. Similarly create another 16 datasets by following the below list.
+2. Similarly create another 16 datasets by following the below list.Publish the changes made or else the datasets won't be reflected.
 
    ![datasets sixteen ](images/24.png)
 
