@@ -380,7 +380,7 @@ This section is very important to create a pipeline with parallel activities to 
 
 - In this task, we will be doing a similar as in task 1 but in a code-free environment on the green cab data. You will also learn the important concept of dataset by creating a new dataset.
 
-1. Click on **Develop**
+1. Navigate to **Develop** then **+**Icon->Data flow
 
 2. In Data Flow, create a **New data flow**
 
