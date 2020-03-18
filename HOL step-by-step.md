@@ -180,7 +180,7 @@ By the end of this workshop, you will have performed a non-exhaustive list of op
  
  1. Execute the SQL script **CreateStagingBackupTables SETUP ONLY** which you imported in Exercise 2.Make sure you are connected to **sqlpool**
  
- 2. Click on **Run** and then **Publish**.
+ 2. Click on **Run**
  
  3. Make sure 5 tables are created.
  
@@ -191,7 +191,7 @@ By the end of this workshop, you will have performed a non-exhaustive list of op
  
 1. Execute the SQL script **CreateStoredProcedures SETUP ONLY** which you imported in Exercise 2.Make sure you are connected to **sqlpool**
 
-2. Click on **Run and then Publish**.
+2. Click on **Run 
 
 3. Make sure 7 stored procedures are created
 
