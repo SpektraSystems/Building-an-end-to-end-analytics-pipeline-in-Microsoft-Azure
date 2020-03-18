@@ -326,7 +326,7 @@ By the end of this workshop, you will have performed a non-exhaustive list of op
    
 ## Exercise 5: Explore the lake with SQL On-Demand and Spark
 
-- This section will highlight how you can explore data using the engine of your choice.
+This section will highlight how you can explore data using the engine of your choice.
    
 ### Task 1: Explore the lake with SQL On-Demand
    
@@ -349,7 +349,7 @@ Notebook**. This will generate a notebook with PySpark code to load the data in 
 
 ## Exercise 6: Build Modern Data Warehouse pipelines
 
-- This section is very important to create a pipeline with parallel activities to bring data into the lake,transform it and load it into the SQL Pool.
+This section is very important to create a pipeline with parallel activities to bring data into the lake,transform it and load it into the SQL Pool.
 
 ### Task 1: Create and run a Notebook for YellowCab
 
@@ -626,7 +626,7 @@ in New York.
 
 ## Exercise 9: Create views with SQL Analytics On-Demand 
 
-- In this section, we will look at the same query you ran in a SQL Pool (Exercise 4) but over the Data Lake. If you have not done exercise 8, then this simple exercise is to understand the evolution of over the time of the amounts of daily rides that yellow cabs, green cabs and for hire vehicles (includes companies like Uber and Lyft) served in New York. Performance to query the lake will not be as strong as the query performance in a SQL Pool but SQL Analytics On-Demand is a powerful and flexible capability for data exploration and low cost BI with infrequent access to the lake. No data movement is required.
+In this section, we will look at the same query you ran in a SQL Pool (Exercise 4) but over the Data Lake. If you have not done exercise 8, then this simple exercise is to understand the evolution of over the time of the amounts of daily rides that yellow cabs, green cabs and for hire vehicles (includes companies like Uber and Lyft) served in New York. Performance to query the lake will not be as strong as the query performance in a SQL Pool but SQL Analytics On-Demand is a powerful and flexible capability for data exploration and low cost BI with infrequent access to the lake. No data movement is required.
 
 ### Task 1: Create three views over the data lake.
  
@@ -659,7 +659,7 @@ in New York.
 
 ## Exercise 10: Data Science with Spark
 
-- In this exercise you will play the role of a Data Scientist that based on the NYC Yellow Cab Dataset (that tracks trips and various attributes) using Synapse Notebook creates a model to predict for a given trip whether there will be a tip or not.
+In this exercise you will play the role of a Data Scientist that based on the NYC Yellow Cab Dataset (that tracks trips and various attributes) using Synapse Notebook creates a model to predict for a given trip whether there will be a tip or not.
 
 Create a new Notebook.
 
