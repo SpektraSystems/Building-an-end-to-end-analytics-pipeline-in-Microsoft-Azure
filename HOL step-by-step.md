@@ -619,7 +619,7 @@ in New York.
 
 2. **Example**:You can run a query that will aggregate the count of rides per day for each view and join these three views together per day. Display the results in a chart similar to below:
 
-![example(images/83.png)
+![example](images/83.png)
 
  - Select the SQL Script called Query Market Share and run the script against the SQL Pool database.
  - Select Chart
