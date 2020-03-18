@@ -429,6 +429,8 @@ You will also learn the important concept of dataset by creating a new dataset.
 
 12. Click on + next to the GreenCab activity
 
+![greencab activity](images/82.png)
+
 13. Select the **row modifier** filter
 
 14. Enter the following for **Output stream name: FilterByYear**
