@@ -588,23 +588,25 @@ In this exercise you will be able to create a Power BI Report and build a visual
 
   - Navigate to Develop->Power BI->PowerBI report and select the PowerBI report.
   
+  ![powerbi report](images/70.png)
+
 2. The Power BI Report Builder will appear, You can now build your report based on the Imported SQL Dataset.
 
-![powerbi builder](images/70.png)
+![powerbi builder](images/71.png)
 
 3. Select from the Visualization the Line Chart and drag and drop the **PickupDate** into the Axis and the other fields into the Values and then adjust the report:
 
-![pickup date](images/71.png)
+![pickup date](images/72.png)
 
-![categorical](images/72.png)
+![categorical](images/73.png)
 
 4. You will now get your report
 
-![report](images/73.png)
+![report](images/74.png)
 
 5. You can Save the Report to the Workspace, You can view the report in both Synapse Analytics and PowerBI
 
-![save report](images/74.png)
+![save report](images/75.png)
 
 
 ## Exercise 8: High Performance Analysis with SQL Analytics Pool
@@ -617,7 +619,7 @@ in New York.
 
 2. **Example**:You can run a query that will aggregate the count of rides per day for each view and join these three views together per day. Display the results in a chart similar to below:
 
-![example(images/75.png)
+![example(images/83.png)
 
  - Select the SQL Script called Query Market Share and run the script against the SQL Pool database.
  - Select Chart
@@ -643,7 +645,7 @@ in New York.
 3. Run the script
 4. Check that the three views are available (refresh if needed the SQL Analytics On-Demand).
 
-![views](images/75.png)
+![views](images/84.png)
 
 5. **Example**: Run a query that will aggregate the count of rides per day for each view and join these three views together per day .Try to display the results in a chart similar to below:
 
