@@ -115,15 +115,21 @@ one elective of your choice.
 
 ### Task 1: Import all the SQL scripts and notebooks
 
-1. Import all the **SQL scripts**.Navigate to **Develop** and +Icon then Click on Import 
+1. Import all the **SQL scripts**, Navigate to **Develop** and +Icon then Click on **Import**.
 
    ![sql scripts ](images/11.png)
    
-2. Import all the **notebooks**.Navigate to **Develop** and +Icon then Click on Import 
+2. Browse to the folder where the lab files are downloaded.
+   - Select the **labfiles** folder then Click on **SQL scripts** folder and select all the SQL scripts to import.
+   
+3. Import all the **notebooks**.Navigate to **Develop** and +Icon then Click on Import 
 
    ![notebooks ](images/12.png)
    
-3. Once you finish importing all the SQL scripts and the notebooks, Click on **publish all** .
+4. Browse to the folder where the lab files are downloaded.
+   - Select the **labfiles** folder then Click on **Notebooks** folder and select all the notebooks to import.
+   
+5. Once you finish importing all the SQL scripts and the notebooks, Click on **publish all** .
    
    ![notebooks and scripts ](images/13.png)
    
