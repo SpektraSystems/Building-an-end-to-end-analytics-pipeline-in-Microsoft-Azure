@@ -523,10 +523,7 @@ the curated data is loaded in the SQL Pool.
 
 ### Task 4: Understand a pipeline that contains all activities
 
-- This pipeline had been run before the lab. This pipeline copied curated data from the lake into a SQL Pool
-as staging table. A staging table is a table optimized for loading/writing data. Once the copy activity was
-complete, it triggered a stored procedure that transformed the staging table into a destination table
-whose goal is to provide strong read performance. Exercise 4 will highlight the speed of reading data!
+- This pipeline had been run before the hands on lab. This pipeline copied curated data from the lake into a SQL Pool as staging table. A staging table is a table optimized for loading/writing data. Once the copy activity was complete, it triggered a stored procedure that transformed the staging table into a destination table whose goal is to provide strong read performance. 
 
 1. Click into the **Orchestrate** section
 
@@ -549,12 +546,13 @@ have triggered.
 
 3. Check the status of your pipeline. It should be in-progress
 
-4. To understand at a more granular level, the status of the activities in the pipeline, click on the
-pipeline
+4. To understand at a more granular level, the status of the activities in the pipeline, click on the pipeline
 
-![pipeline runs-activities](images/64.png)
+![pipeline runs-activities](images/62.png)
 
-![activity runs](images/65.png)
+![activity runs](images/64.png)
+
+![activity runs status](images/65.png)
 
 5. You can get the detail of an activity by clicking to the binocular icon. In this case, you can see the performance of a copy command activity. Check the various details based on the different
 activities you ran. (Data Flow, notebook, SQL Script)
