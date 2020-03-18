@@ -578,17 +578,159 @@ the time, the stats, which pool template was leveraged and the job type.
 
 In this exercise you will be able to create a Power BI Report and build a visualization within Synapse Analytics leveraging previously created datasets.
 
+### Task 1: Create a Power BI Report
+
+1. Click on the Power BI Report within the synapse workpsace.
+
+  - Navigate to Develop->Power BI->PowerBI report and select the PowerBI report.
+  
+2. The Power BI Report Builder will appear, You can now build your report based on the Imported SQL Dataset.
+
+![powerbi builder](images/70.png)
+
+3. Select from the Visualization the Line Chart and drag and drop the **PickupDate** into the Axis and the other fields into the Values and then adjust the report:
+
+![pickup date](images/71.png)
+
+![categorical](images/72.png)
+
+4. You will now get your report
+
+![report](images/73.png)
+
+5. You can Save the Report to the Workspace, You can view the report in both Synapse Analytics and PowerBI
+
+![save report](images/74.png)
 
 
+## Exercise 8: High Performance Analysis with SQL Analytics Pool
+
+### Task 1: SQL Pool query to understand market shares between cab companies
+
+1. This query will be a simple exercise to understand the evolution of over the time of the amounts of daily
+rides that the yellow cabs, green cabs and for hire vehicle (includes companies like Uber and Lyft) served
+in New York.
+
+2. **Example**:You can run a query that will aggregate the count of rides per day for each view and join these three views together per day. Display the results in a chart similar to below:
+
+![example(images/75.png)
+
+ - Select the SQL Script called Query Market Share and run the script against the SQL Pool database.
+ - Select Chart
+ - From the Y axis columns unselect PickupDate
+ - Select PickupDate for the X-Axis column
+
+### Task 2: Monitor the queries through the DMV
+
+- Monitoring the queries that run in SQL Analytics Pool is very simple. You can look at the queries that have run in your SQL Pool.
+
+1. Select **Monitor queries** SQL Script in the Analyze section.
+
+2. **Run** the script against the SQL Pool database.
+
+## Exercise 9: Create views with SQL Analytics On-Demand 
+
+- In this section, we will look at the same query you ran in a SQL Pool (Exercise 4) but over the Data Lake. If you have not done exercise 8, then this simple exercise is to understand the evolution of over the time of the amounts of daily rides that yellow cabs, green cabs and for hire vehicles (includes companies like Uber and Lyft) served in New York. Performance to query the lake will not be as strong as the query performance in a SQL Pool but SQL Analytics On-Demand is a powerful and flexible capability for data exploration and low cost BI with infrequent access to the lake. No data movement is required.
+
+### Task 1: Create three views over the data lake.
+ 
+1. Select the SQL Script called **Create SQL OD Views** from the Analyze section.
+2. Make sure that script is connect to the SQL on-demand and the master database
+3. Run the script
+4. Check that the three views are available (refresh if needed the SQL Analytics On-Demand).
+
+![views](images/75.png)
+
+5. **Example**: Run a query that will aggregate the count of rides per day for each view and join these three views together per day .Try to display the results in a chart similar to below:
+
+![views Example](images/76.png)
+
+ - Run the following SQL Script against SQL On-Demand and the database (not master):
+  
+  Select PickupDateYellow,FHVrides,Yellowrides, Greenrides from
+  dbo.YellowCabAggregated
+  INNER JOIN dbo.FHVAggregated ON dbo.FHVAggregated.PickupDateFHV =
+  dbo.YellowCabAggregated.PickupDateYellow
+  INNER JOIN dbo.GreenCabAggregated ON
+  dbo.GreenCabAggregated.PickupDateGreen = dbo.YellowCabAggregated.PickupDateYellow
+  ORDER BY PickupDateFHV ASC 
+  
+6. Select Chart
+7. From the Y axis columns unselect PickupDateYellow
+8. Select PickupDateYellow for the X-Axis column
+
+## Exercise 10: Data Science with Spark
+
+- In this exercise you will play the role of a Data Scientist that based on the NYC Yellow Cab Dataset (that tracks trips and various attributes) using Synapse Notebook creates a model to predict for a given trip whether there will be a tip or not.
+
+Create a new Notebook (for details check Exercise 7).
+1. Configure and author your notebook:
+a. Attach your Spark Compute
+b. Select Spark as a language: **Pyspark**
+c. Click on **Add text** or **{} Add code** for each cell below:
+
+For text cell:
+
+![Text cell](images/77.png)
+
+For code cell:
+
+![Code cell](images/78.png)
+
+Cell 1 – **Text cell**
+
+## Notebook :Predict NYC Taxi Tips using Spark ML and Azure Open Datasets
+
+- The notebook ingests, visualizes, prepares and then trains a model based on an Open Dataset that tracks NYC Yellow Taxi trips and various attributes around them.
+
+- The goal is to predict for a given trip whether there will be a tip or not.
+
+- The Notebook **EXE6 Data Science Final_PySpark** is uploaded for you in the **Develop** section and rich text is provided to explain every single step. Note that you will need to replace the ADLS G2 Storage account **YourADLSAccount** with your Account name.
+
+- Here’s a summary of the steps you will be performing:
+
+1. **Ingest Data**
+
+Get the data from the Open Datasets store and then down sample using filtering and sampling to generate a smaller set of data to make it faster/easier to evaluate different approaches to prep for the modelling phase later in the notebook.
+
+2. **Exploratory Data Analysis**
+Look at the data and evaluate its suitability for use in a model, do this via some basic charts focused on tip values and relationships.
+
+3.**Data Prep and Featurization**
+
+It's clear from the visualizations above that there are a bunch of outliers in the data. These will need to be filtered out in addition there are extra variables that are not going to be useful in the model we build at the end.
+
+Finally there is a need to create some new (derived) variables that will work better with the model.
+
+4.**Data Prep and Featurization Part 2**
+
+Having created new variables its now possible to drop the columns they were derived from so that the dataframe that goes into the model is the smallest in terms of number of variables, that is required.
+Also create some more features based on new columns from the first round.
+
+5.**Encoding**
+
+Different ML alogirthms support different type sof input, for this example Logistic Regression is being used for Binry Classification. This means that any Categorical (string) variables must be converted to numbers.
+
+The process is not as simple as a "map" style function as the relationship between the numbers can introduce a bias in the resulting model, the approach is to index the variable and then encode using a standard approach called One Hot Encoding.
+
+This approach requires the encoder to "learn"/fit a model over the data in the Spark instance and then transform based on what was learnt.
+
+6.**Generation of Testing and Training Data Sets**
+Simple split, 70% for training and 30% for testing the model. Playing with this ratio may result in different models.
+
+7.**Train the Model**
+Train the Logistic Regression model and then evaluate it using Area under ROC as the metric.
+The ROC is a graphical plot that illustrates the diagnostic ability.
+For our Model the “Area under ROC = 0.989821882951654” and this is considered excellent
+
+8.**Evaluate and Visualize**
+
+Plot the actual curve to develop a better understanding of the model.
+See the Area under the ROC model:
+
+![ROC graph](images/79.png)
 
 
-
-
-
-
-
-   
-   
   
 
 
