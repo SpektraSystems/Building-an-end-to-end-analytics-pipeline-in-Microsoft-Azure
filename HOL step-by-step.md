@@ -341,7 +341,7 @@ This section will highlight how you can explore data using the engine of your ch
 1. Similarly, now go to the folder **holidaybackup/processed**. 
 
 2. Select the file **part-00000-tid5126373485025311044-8121f1d6-4c9d-4e4c-8e78-fbe2733fc3a5-649-c000.snappy.parquet** and **New
-Notebook**. This will generate a notebook with PySpark code to load the data in a dataframe and display10 rows with the header. 
+Notebook**. This will generate a notebook with PySpark code to load the data in a dataframe and displays 10 rows with the header. 
 
 3. Attach the notebook to a **Spark pool** and Click on **run** to execute the command.
 
@@ -353,10 +353,7 @@ This section is very important to create a pipeline with parallel activities to 
 
 ### Task 1: Create and run a Notebook for YellowCab
 
-- In this notebook you will see the power of the AAD passthrough between compute and storage whether
-it’s a data lake or a database. You will see how simple it is to write into a SQL Pool table with Spark thanks
-to the connector. No need to create password, identity, external table, format sources. It’s all managed
-by the connector!
+- In this notebook you will see the power of the AAD passthrough between compute and storage whether it’s a data lake or a database. You will see how simple it is to write into a SQL Pool table with Spark thanks to the connector. No need to create password, identity, external table, format sources. It’s all managed by the connector!
 
 1. Go into the **Develop** section
 
@@ -379,8 +376,7 @@ by the connector!
 
 ### Task 2: Create and run a Dataflow with GreenCab dataset
 
-- In this task, we will be doing a similar as in task 1 but in a code-free environment on the green cab data.
-You will also learn the important concept of dataset by creating a new dataset.
+- In this task, we will be doing a similar as in task 1 but in a code-free environment on the green cab data. You will also learn the important concept of dataset by creating a new dataset.
 
 1. Click on **Develop**
 
@@ -603,9 +599,7 @@ In this exercise you will be able to create a Power BI Report and build a visual
 
 ### Task 1: SQL Pool query to understand market shares between cab companies
 
-1. This query will be a simple exercise to understand the evolution of over the time of the amounts of daily
-rides that the yellow cabs, green cabs and for hire vehicle (includes companies like Uber and Lyft) served
-in New York.
+1. This query will be a simple exercise to understand the evolution of over the time of the amounts of daily rides that the yellow cabs, green cabs and for hire vehicle (includes companies like Uber and Lyft) served in New York.
 
 2. **Example**:You can run a query that will aggregate the count of rides per day for each view and join these three views together per day. Display the results in a chart similar to below:
 
