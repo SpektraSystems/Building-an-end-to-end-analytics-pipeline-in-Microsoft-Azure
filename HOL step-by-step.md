@@ -578,7 +578,7 @@ In this exercise you will be able to create a Power BI Report and build a visual
 
   - Navigate to Develop->Power BI->PowerBI report and select the PowerBI report.
   
-   ![powerbi report](images/70.png)
+    ![powerbi report](images/70.png)
 
 2. The Power BI Report Builder will appear, You can now build your report based on the Imported SQL Dataset.
 
