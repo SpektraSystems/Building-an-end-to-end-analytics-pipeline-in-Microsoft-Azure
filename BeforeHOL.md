@@ -32,12 +32,10 @@ Duration: 20 minutes
 
 5. Select **Purchase**.
 
-6. The deployment will take 15-20 minutes to complete. Continue to the next Task while this is deploying.
+6. The deployment will take around 15-20 minutes to complete.
 
     To view the progress, select the **Deployments** link, then select the **Microsoft.Template** deployment.
 
     ![View template deployment status.](images/deployment-status.png)
 
-7. The deployment will take around 10 minutes to complete.
-
-8. You should follow all the steps provided *before* performing the Hands-on lab.
+7. You should follow all the steps provided *before* performing the Hands-on lab.
