@@ -256,11 +256,11 @@ By the end of this workshop, you will have performed a non-exhaustive list of op
 
 2. FHV SETUP ONLY,YellowCab SETUP ONLY and GreenCab SETUP ONLY are the notebooks which you imported in Exercise 2.
 
-3. Run the Notebook **FHV SETUP ONLY**
+3. Follow the instructions(Replace the Stoarge account name) in the notebook and Click on **Run** to execute the Notebook **FHV SETUP ONLY**
 
-4. Run the Notebook **YellowCab SETUP ONLY**
+4.  Follow the instructions and Run the Notebook **YellowCab SETUP ONLY**
 
-5. Run the Notebook **GreenCab SETUP ONLY**
+5.  Follow the instructions and Run the Notebook **GreenCab SETUP ONLY**
 
 
 ### Task 3: Create the PowerBI dataset.
