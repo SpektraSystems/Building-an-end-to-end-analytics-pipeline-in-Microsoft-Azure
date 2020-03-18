@@ -420,7 +420,7 @@ This section is very important to create a pipeline with parallel activities to 
 
     ![greencab activityy](images/82.png)
 
-13. Select the **row modifier** filter
+13. Select the filter from row modifier 
 
 14. Enter the following for **Output stream name: FilterByYear**
 
