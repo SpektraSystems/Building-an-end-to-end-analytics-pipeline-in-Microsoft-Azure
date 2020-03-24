@@ -100,3 +100,5 @@ By the end of this workshop, you will have performed a non-exhaustive list of op
      - Click on **create**
   
     ![Powerbi linked service ](images/010.png)
+    
+    Click **Next** to go to the next exercise.
