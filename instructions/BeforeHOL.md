@@ -20,7 +20,7 @@ Duration: 20 minutes
 
 1. Select the following **Deploy to Azure** button to deploy the ARM Template with the Lab resources for this lab. This link will deep link into the Azure Portal, passing in the ARM Template for deploying the resources for this lab.
 
-    [![Deploy to Azure button.](images/azure-deploy-button-small.png "Deploy to Azure")](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FSpektraSystems%2FBuilding-an-end-to-end-analytics-pipeline-in-Microsoft-Azure%2Fmaster%2Fscripts%2Ftemplate.json)
+    [![Deploy to Azure button.](images/azure-deploy-button-small.png "Deploy to Azure")](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FSpektraSystems%2FBuilding-an-end-to-end-analytics-pipeline-in-Microsoft-Azure%2Fmaster%2Finstructions%2Fscripts%2Ftemplate.json)
 
 2. On the **Custom deployment** blade, select the existing resource group **ODL-synapse-XXXXXX** for the **Resource group** field.
 
