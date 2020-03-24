@@ -20,3 +20,5 @@
 1. Select **Monitor queries** SQL Script in the Analyze section.
 
 2. **Run** the script against the SQL Pool database.
+   
+   Click **Next** to go to the next exercise.
