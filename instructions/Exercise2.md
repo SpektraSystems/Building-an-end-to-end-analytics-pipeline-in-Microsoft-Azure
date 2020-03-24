@@ -53,3 +53,5 @@
     - And **publish** the changes.
  
     ![sql od cred ](images/16.png)
+    
+    Click **Next** to go to the next exercise.
