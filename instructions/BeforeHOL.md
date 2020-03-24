@@ -38,4 +38,4 @@ Duration: 20 minutes
 
     ![View template deployment status.](images/deployment-status.png)
 
-7. Click **Next** to perform the Hands-on lab.
+   Click **Next** to perform the Hands-on lab.
