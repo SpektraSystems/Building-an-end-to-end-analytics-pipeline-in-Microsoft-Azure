@@ -27,4 +27,6 @@ In this exercise you will be able to create a Power BI Report and build a visual
 5. You can Save the Report to the Workspace, You can view the report in both Synapse Analytics and PowerBI
 
    ![save report](images/75.png)
+   
+   Click **Next** to go to the next exercise.
 
