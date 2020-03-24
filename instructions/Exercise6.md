@@ -214,3 +214,5 @@ the time, the stats, which pool template was leveraged and the job type.
 4. Click into one application and check the picture below highlighting some of the monitoring functionalities
 
    ![log query](images/69.png)
+   
+   Click **Next** to go to the next exercise.
