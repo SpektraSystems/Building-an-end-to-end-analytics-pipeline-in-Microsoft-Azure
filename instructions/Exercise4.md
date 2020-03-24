@@ -90,5 +90,7 @@
 15. Go back to the Synapse Workspace and then click on Finish and refresh
 
     ![finish and refresh](images/42.png)
+    
+    Click **Next** to go to the next exercise.
 
    
