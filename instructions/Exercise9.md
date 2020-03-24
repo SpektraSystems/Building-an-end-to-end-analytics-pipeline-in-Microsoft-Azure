@@ -17,14 +17,13 @@ In this section, we will look at the same query you ran in a SQL Pool (Exercise 
 
  - Run the following SQL Script against SQL On-Demand and the database (not master):
   
-  Select PickupDateYellow,FHVrides,Yellowrides, Greenrides from
-  dbo.YellowCabAggregated
-  INNER JOIN dbo.FHVAggregated ON dbo.FHVAggregated.PickupDateFHV =
-  dbo.YellowCabAggregated.PickupDateYellow
-  INNER JOIN dbo.GreenCabAggregated ON
-  dbo.GreenCabAggregated.PickupDateGreen = dbo.YellowCabAggregated.PickupDateYellow
-  ORDER BY PickupDateFHV ASC 
-  
+  ```
+  Select PickupDateYellow,FHVrides,Yellowrides, Greenrides from dbo.YellowCabAggregated
+  INNER JOIN dbo.FHVAggregated ON dbo.FHVAggregated.PickupDateFHV=dbo.YellowCabAggregated.PickupDateYellow
+  INNER JOIN dbo.GreenCabAggregated ON dbo.GreenCabAggregated.PickupDateGreen = dbo.YellowCabAggregated.PickupDateYellow
+  ORDER BY PickupDateFHV ASC
+  ```
+
 6. Select Chart
 
 7. From the Y axis columns unselect PickupDateYellow
