@@ -20,3 +20,5 @@ Notebook**. This will generate a notebook with PySpark code to load the data in 
 3. Attach the notebook to a **Spark pool** and Click on **run** to execute the command.
 
    ![holiday backup](images/43.png)
+
+   Click **Next** to go to the next exercise.
