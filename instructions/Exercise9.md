@@ -30,3 +30,5 @@ In this section, we will look at the same query you ran in a SQL Pool (Exercise 
 7. From the Y axis columns unselect PickupDateYellow
 
 8. Select PickupDateYellow for the X-Axis column
+
+   Click **Next** to go to the next exercise.
