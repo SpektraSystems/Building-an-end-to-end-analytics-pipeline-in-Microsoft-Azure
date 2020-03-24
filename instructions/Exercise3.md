@@ -70,4 +70,6 @@
 
    ![datasets sixteen ](images/24.png)
 
-   Make sure 17 datasets are created.
+3. Make sure 17 datasets are created.
+   
+   Click **Next** to go to the next exercise.
