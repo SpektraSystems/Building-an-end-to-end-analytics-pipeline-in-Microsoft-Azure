@@ -17,8 +17,6 @@ Create a new Notebook.
 
    ![Code cell](images/78.png)
 
-   Cell 1 – **Text cell**
-
 ## Notebook :Predict NYC Taxi Tips using Spark ML and Azure Open Datasets
 
 - The notebook ingests, visualizes, prepares and then trains a model based on an Open Dataset that tracks NYC Yellow Taxi trips and various attributes around them.
