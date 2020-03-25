@@ -8,11 +8,11 @@ This section is very important to create a pipeline with parallel activities to 
 
 1. Go into the **Develop** section
 
-2. Select the notebook section and click on the notebook **EXE2 YellowCab**
+2. Select the notebook section and click on the notebook **EXE2 YellowCab**.Replace with storage account name whereever required.
 
 3. Configure and author your notebook:
-   - Attach your **Spark Compute**
-   - Select **Spark** as a language
+   - Attach your **Spark Pool**
+   - Select **Spark(Scala)** as a language
    - Define the configuration of the session. Defining the configuration of a session enables you to increase the resources of running a notebook. Use **4 executors** of medium size for that notebook. You want to run it fast!
 
    ![configure session](images/80.png)
