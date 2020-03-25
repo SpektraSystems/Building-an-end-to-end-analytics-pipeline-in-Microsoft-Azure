@@ -48,8 +48,7 @@ By the end of this workshop, you will have performed a non-exhaustive list of op
  2. Provide the following details:
     - Name : **CoreSQLPoolBackup**
     - Select Enter manually 
-    - Fully qualified domain name: labworkspaceXXXXXX.database.windows.net 
-      where xxxxxx is the deployment id.Replace xxxxxx with the deployment id.
+    - Fully qualified domain name: **labworkspaceXXXXXX.database.windows.net** where xxxxxx is the deployment id.Replace xxxxxx with the      deployment id.
     - Database name: sqlpool
     - Authentication type: SQL authentication
     - User name: sqladmin
