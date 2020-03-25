@@ -37,8 +37,7 @@
 
    ![marketshare](images/28.png)
 
-2. Browse for **Marketsharepbiview_PBI.csv** 
-  - Navigate to C:\LabFiles\Building-an-end-to-end-analytics-pipeline-in-Microsoft-Azure master\labfiles\Marketsharepbiview_PBI.csv     and Select   Marketsharepbiview_PBI.csvthen click on **Done**.
+2. Browse for **Marketsharepbiview_PBI.csv** ,navigate to C:\LabFiles\Building-an-end-to-end-analytics-pipeline-in-Microsoft-Azure master\labfiles\Marketsharepbiview_PBI.csv and Select   Marketsharepbiview_PBI.csvthen click on **Done**.
 
    ![marketsharepbi](images/29.png)
 
