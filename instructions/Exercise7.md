@@ -14,7 +14,7 @@ In this exercise you will be able to create a Power BI Report and build a visual
 
    ![powerbi builder](images/71.png)
 
-3. Select from the Visualization the Line Chart and drag and drop the **PickupDate** into the Axis and the other fields into the Values and then adjust the report:
+3. Select from the Visualization the **Line Chart** and drag and drop the **PickupDate** into the Axis and the other fields into the Values and then adjust the report:
 
    ![pickup date](images/72.png)
 
