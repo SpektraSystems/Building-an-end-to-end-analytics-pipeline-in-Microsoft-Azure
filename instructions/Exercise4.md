@@ -10,12 +10,14 @@
 
    ![pipeline copydata](images/26.png)
    
-3. Now click on **Code** on the right corner of the page and paste the code provided and click on **OK**.
+3. Browse to C:\LabFiles\Building-an-end-to-end-analytics-pipeline-in-Microsoft-Azure-master\labfiles\EXE2CopyDatatoSQL.json
+   Copy the code as you will be using it in the next step.
+   
+4. Now click on **Code** on the right corner of the page and paste the code from **EXE2CopyDatatoSQL.json** and click on **OK**. 
+   and then click on **Validate** to check if there any errors.
 
    ![code](images/27.png)
    
-4. Paste the code from **EXE2CopyDatatoSQL.json** and click on **Validate** to check if there any errors.
-
 ### Task 2: Curate the  Yellow, Green Cab and FHV
 
 1. Navigate to **Develop**->**Notebooks**
@@ -35,7 +37,8 @@
 
    ![marketshare](images/28.png)
 
-2. Browse for **Marketsharepbiview_PBI.csv** and then click on **Done**.
+2. Browse for **Marketsharepbiview_PBI.csv** 
+  - Navigate to C:\LabFiles\Building-an-end-to-end-analytics-pipeline-in-Microsoft-Azure master\labfiles\Marketsharepbiview_PBI.csv     and Select   Marketsharepbiview_PBI.csvthen click on **Done**.
 
    ![marketsharepbi](images/29.png)
 
@@ -51,7 +54,7 @@
 
    ![configure session](images/32.png)
 
-6. Open the notebook **PBIReadViewDataIntoSQLPool** and Update the ADLS account in Cell 1 and Cell 3 and Click on **Run All**.
+6. Open the notebook **PBIReadViewDataIntoSQLPool** and Update the ADLS storage account name in Cell 1 and Cell 3 and Click on **Run All**.
 
    ![Run notebook](images/33.png)
 
