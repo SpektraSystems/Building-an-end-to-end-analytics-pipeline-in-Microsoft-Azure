@@ -93,7 +93,7 @@ This section is very important to create a pipeline with parallel activities to 
 
 20. Enter the following for **Output stream name: FilterColumns**
 
-21. Click on **Filter on**
+21. Select the **incoming stream name: FilterByYear**
 
 22. **Select Automapping**
 
