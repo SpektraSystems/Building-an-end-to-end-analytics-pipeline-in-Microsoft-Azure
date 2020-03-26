@@ -39,7 +39,7 @@ This section is very important to create a pipeline with parallel activities to 
 
    ![dataflow](images/81.png)
 
-4. Click on Data Flow Debug, select **AutoResolveIntegrationRuntime** and click **Ok**
+4. Turn on **Data Flow Debug**, select **AutoResolveIntegrationRuntime** and click **Ok**
 
 5. Click on **Add Source**
 
@@ -59,7 +59,7 @@ This section is very important to create a pipeline with parallel activities to 
 
     ![green](images/48.png)
 
-10. On Source Settings Edit the **GreenCab** Dataset 
+10. On Source Settings Click on **Open** to edit the **GreenCab** Dataset 
 
     ![greencab](images/49.png)
 
@@ -111,9 +111,9 @@ This section is very important to create a pipeline with parallel activities to 
 
 26. Call the output stream name **GreenCabSink**
 
-27. Select +New as dataset, Select +ADLSg2 as a storage layer
+27. Select **+New** as dataset, Select **Azure Datalake Storage Gen2** as a storage layer
 
-28. Select **Parquet**
+28. Select **Parquet** 
 
 29. Name it as **DataflowSink**
 
@@ -127,7 +127,7 @@ This section is very important to create a pipeline with parallel activities to 
 
     ![greencabsink](images/57.png)
 
-34. Turn of the **Debug Session** and click on **Publish all**
+34. Turn off the **Debug Session** and click on **Publish all**
 
     ![debug_publish](images/58.png)
 
