@@ -168,16 +168,15 @@ the curated data is loaded in the SQL Pool.
 
 2. Select the pipeline **EXE2CopyDatatoSQL** in the Pipelines
 
-3. **Publish the Pipeline and then Select Add trigger and Trigger now 
+3. **Publish the Pipeline** and then Select **Add trigger** then followed by **Trigger now**
 
-4. Check the various activities run in the pipeline
+4. Check the various activity runs in the pipeline
 
    ![activities](images/62.png)
 
-### Task 5: Monitor the pipeline
+### Task 5: Monitor the pipelines
 
-- Synapse will offer a single pane of glass to monitor activities. We will first look at the pipeline that you
-have triggered.
+- Synapse will offer a single pane of glass to monitor activities. We will first look at the pipelines that you have triggered.
 
 1. Click at the section **Monitoring**
 
@@ -195,8 +194,7 @@ have triggered.
 
    ![activity runs status](images/65.png)
 
-5. You can get the detail of an activity by clicking to the binocular icon. In this case, you can see the performance of a copy command activity. Check the various details based on the different
-activities you ran. (Data Flow, notebook, SQL Script)
+5. You can get the detail of an activity by clicking to the binocular icon only if the status is already is already succeeded. In this case, you can see the performance of a copy command activity. Check the various details based on the different activities you ran. (Data Flow, notebook, SQL Script)
 
    ![performance](images/66.png)
 
