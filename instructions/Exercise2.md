@@ -41,7 +41,7 @@
    
 1. Execute the SQL script **SQLODStorageCredentials SETUP ONLY**
     
-    - Navigate to **Develop->SQL Scripts** and select the SQL Script**SQLODStorageCredentials SETUP ONLY** which you imported in task 1.
+    - Navigate to **Develop->SQL Scripts** and select the SQL Script **SQLODStorageCredentials SETUP ONLY** that you imported in task 1.
     - Make sure you **replace the Storage account name** that you are using in the lab and **connect to sql on-demand** not sql pool.
     - Click on **Run** and the output should show as command executed successfully.
     - And **publish** the changes.
@@ -51,7 +51,7 @@
 
 2. Execute the SQL script **SQLODCredentials SETUP ONLY**   
 
-    - **SQLODCredentials SETUP ONLY** is the SQL script which you imported in the task 1.
+    - Navigate to **Develop->SQL Scripts** and select the SQL Script **SQLODCredentials SETUP ONLY** that you imported in the task 1.
     - Make sure you **replace the username** with the username you are using for the lab and **connect to sql on-demand** not sql pool.
     - Click on **Run** and the output should show as command executed successfully.
     - And **publish** the changes.
