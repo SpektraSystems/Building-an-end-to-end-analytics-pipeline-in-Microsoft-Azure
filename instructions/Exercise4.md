@@ -11,12 +11,14 @@
    ![pipeline copydata](images/26.png)
    
 3. Browse to **C:\LabFiles\Building-an-end-to-end-analytics-pipeline-in-Microsoft-Azure-master\labfiles\EXE2CopyDatatoSQL.json**
-   Copy the code from this file as you will be using it in the next step.
+   Open the file in the notepad and **copy the code** as you will be using it in the next step.
    
-4. Now click on **Code** on the right corner of the page and paste the code from **EXE2CopyDatatoSQL.json** and click on **OK**. 
-   and then click on **Validate** to check if there any errors.
+4. Now click on **Code** on the right corner of the page and paste the code that you copied in the previous step and click on **OK**. 
+   Then click on **Validate** to check if there any errors.
 
    ![code](images/27.png)
+   
+5. Don't run the pipeline now,You will be doing it in the further exercises.
    
 ### Task 2: Curate the  Yellow, Green Cab and FHV
 
