@@ -162,7 +162,7 @@ the curated data is loaded in the SQL Pool.
 
 ### Task 4: Understand a pipeline that contains all activities
 
-- This pipeline had been run before the hands on lab. This pipeline copied curated data from the lake into a SQL Pool as staging table. A staging table is a table optimized for loading/writing data. Once the copy activity was complete, it triggered a stored procedure that transformed the staging table into a destination table whose goal is to provide strong read performance. 
+-  This pipeline **EXE2CopyDatatoSQL** copies the curated data from the lake into a SQL Pool as staging table. A staging table is a table optimized for loading/writing data. Once the copy activity is complete, it triggers a stored procedure that transforms the staging table into a destination table whose goal is to provide strong read performance. 
 
 1. Click into the **Orchestrate** section
 
