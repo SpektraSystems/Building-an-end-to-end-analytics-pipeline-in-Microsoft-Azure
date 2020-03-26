@@ -184,15 +184,15 @@ the curated data is loaded in the SQL Pool.
 
    ![pipeline runs](images/63.png)
 
-3. Check the status of your pipeline **EXE2CopyDatatoSQL**. It should be in-progress where as the other pipeline **GreenCabTransformation** that you triggered in task 2 would be succeeded now.
+3. Check the status of your pipeline **EXE2CopyDatatoSQL**. It should be in-progress where as the other pipeline **GreenCabTransformation** that you triggered in task 2 would be succeeded by now.
 
 4. To understand at a more granular level, the status of the activities in the pipeline, click on the pipeline
 
    ![pipeline runs-activities](images/62.png)
 
-   ![activity runs](images/64.png)
+   ![activity runs](images/064.png)
 
-   ![activity runs status](images/65.png)
+   ![activity runs status](images/065.png)
 
 5. You can get the detail of an activity by clicking to the binocular icon only if the status is already is already succeeded. In this case, you can see the performance of a copy command activity. Check the various details based on the different activities you ran. (Data Flow, notebook, SQL Script)
 
