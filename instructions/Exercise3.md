@@ -5,14 +5,14 @@
 1. Create **Staging** schema
 
     - Navigate to **Data**-> Databases ->**SQL Pool**->**Schemas**->**New SQL Script**->**New Schema**
-    - **Run** the command **CREATE SCHEMA [Staging]** command.
+    - **Run** the command **CREATE SCHEMA [Staging]**.
   
     ![schemas ](images/17.png)
   
 2. Create **Backup** Schema
 
     - Navigate to **Data**-> Databases ->**SQL Pool**->**Schemas**->**New SQL Script**->**New Schema**
-    - **Run** the command **CREATE SCHEMA [Backup]** command
+    - **Run** the command **CREATE SCHEMA [Backup]**.
     - **Publish** the changes made after creating both the schemas.
    
    
