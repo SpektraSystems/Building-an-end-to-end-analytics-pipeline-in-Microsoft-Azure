@@ -48,7 +48,7 @@ By the end of this workshop, you will have performed a non-exhaustive list of op
  2. Provide the following details:
     - Name : **CoreSQLPoolBackup**
     - Select Enter manually 
-    - Fully qualified domain name: **labworkspaceXXXXXX.database.windows.net** where xxxxxx is the deployment id.Replace xxxxxx with the      deployment id.
+    - Fully qualified domain name: **labworkspaceXXXXXX.database.windows.net** where xxxxxx is the deployment id. Make sure to replace xxxxxx with the deployment id that is assigned for you to perform the lab.
     - Database name: sqlpool
     - Authentication type: SQL authentication
     - User name: sqladmin
@@ -82,7 +82,7 @@ By the end of this workshop, you will have performed a non-exhaustive list of op
    
    ![Create workspace](images/7.png)
 
-   - Create a PowerBI workspace and name it **labignitePBIxxxxxx** where xxxxxx is the deployment id.Replace xxxxxx with the deployment      id.
+   - Create a PowerBI workspace and name it **labignitePBIxxxxxx** where xxxxxx is the deployment id.Make sure to replace xxxxxx with the deployment id that is assigned for you to perform the lab.
    - Click on **Save**
    
    ![Powerbi workspace](images/8.png)
