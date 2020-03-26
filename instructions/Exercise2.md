@@ -8,8 +8,8 @@
    
 2. Browse to the folder where the lab files are downloaded.
 
-  - Navigate to C:\LabFiles\Building-an-end-to-end-analytics-pipeline-in-Microsoft-Azure-master\labfiles\SQL Scripts
-  - Select all the **SQL scripts** to import.
+   - Navigate to C:\LabFiles\Building-an-end-to-end-analytics-pipeline-in-Microsoft-Azure-master\labfiles\SQL Scripts
+   - Select all the **SQL scripts** to import.
 
 3. Navigate to **Develop** and +Icon then Click on **Import** to import all the **Notebooks**.
 
