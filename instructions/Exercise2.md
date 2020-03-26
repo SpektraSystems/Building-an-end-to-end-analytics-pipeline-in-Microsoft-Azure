@@ -28,7 +28,7 @@
 
 1. Execute the SQL script **SQLPoolcredentials SETUP ONLY**.
      
-    - **SQLPoolcredentials SETUP ONLY** is the SQL script which you imported in task 1.
+    - Navigate to **Develop->SQL Scripts** and select the SQL Script **SQLPoolcredentials SETUP ONLY** which you imported in task 1.
     - **SQLPoolcredentials SETUP ONLY** SQL script is to assign the role of Database owner to the user.
     - Make sure you **replace the username** with the username you are using for the lab and **connect to sqlpool** not sql on-demand.
     - Click on **Run** and the output should show as command executed successfully.
@@ -41,7 +41,7 @@
    
 1. Execute the SQL script **SQLODStorageCredentials SETUP ONLY**
     
-    - **SQLODStorageCredentials SETUP ONLY** is the SQL script which you imported in task 1.
+    - Navigate to **Develop->SQL Scripts** and select the SQL Script**SQLODStorageCredentials SETUP ONLY** which you imported in task 1.
     - Make sure you **replace the Storage account name** that you are using in the lab and **connect to sql on-demand** not sql pool.
     - Click on **Run** and the output should show as command executed successfully.
     - And **publish** the changes.
