@@ -49,10 +49,10 @@ By the end of this workshop, you will have performed a non-exhaustive list of op
     - Name : **CoreSQLPoolBackup**
     - Select Enter manually 
     - Fully qualified domain name: **labworkspaceXXXXXX.database.windows.net** where xxxxxx is the deployment id. Make sure to replace xxxxxx with the deployment id that is assigned for you to perform the lab.
-    - Database name: sqlpool
+    - Database name: **sqlpool**
     - Authentication type: SQL authentication
-    - User name: sqladmin
-    - Password: IgniteRocks!!7112019
+    - User name: **sqladmin**
+    - Password: **IgniteRocks!!7112019**
     - Test the connection and click on **create**
 
     ![Azure Synapse analytics linked service](images/4.png)
