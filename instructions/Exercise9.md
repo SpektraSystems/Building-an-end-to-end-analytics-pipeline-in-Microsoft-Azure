@@ -4,7 +4,7 @@ In this section, we will look at the same query you ran in a SQL Pool (Exercise 
 
 ### Task 1: Create three views over the data lake.
  
-1. Select the SQL Script called **Create SQL OD Views** from the Analyze section.
+1. Select the SQL Script called **EXE5 Create SQL OD Views** from **Develop->SQL Scripts** section.
 2. Make sure that script is connect to the SQL on-demand and the master database
 3. Run the script
 4. Check that the three views are available (refresh if needed the SQL Analytics On-Demand).
