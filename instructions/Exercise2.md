@@ -8,7 +8,7 @@
    
 2. Browse to the folder where the lab files are downloaded.
 
-   - Navigate to C:\LabFiles\Building-an-end-to-end-analytics-pipeline-in-Microsoft-Azure-master\labfiles\SQL Scripts
+   - Navigate to **C:\LabFiles\Building-an-end-to-end-analytics-pipeline-in-Microsoft-Azure-master\labfiles\SQL Scripts**
    - Select all the **SQL scripts** to import.
 
 3. Navigate to **Develop** and +Icon then Click on **Import** to import all the **Notebooks**.
@@ -17,7 +17,7 @@
    
 4. Browse to the folder where the lab files are downloaded.
    
-   - Navigate to C:\LabFiles\Building-an-end-to-end-analytics-pipeline-in-Microsoft-Azure-master\labfiles\Notebooks
+   - Navigate to **C:\LabFiles\Building-an-end-to-end-analytics-pipeline-in-Microsoft-Azure-master\labfiles\Notebooks**
    - Select all the **notebooks** to import.
    
 5. Once you finish importing all the SQL scripts and the notebooks, Click on **publish all** then Click **Publish**
