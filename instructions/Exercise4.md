@@ -10,8 +10,8 @@
 
    ![pipeline copydata](images/26.png)
    
-3. Browse to C:\LabFiles\Building-an-end-to-end-analytics-pipeline-in-Microsoft-Azure-master\labfiles\EXE2CopyDatatoSQL.json
-   Copy the code as you will be using it in the next step.
+3. Browse to **C:\LabFiles\Building-an-end-to-end-analytics-pipeline-in-Microsoft-Azure-master\labfiles\EXE2CopyDatatoSQL.json**
+   Copy the code from this file as you will be using it in the next step.
    
 4. Now click on **Code** on the right corner of the page and paste the code from **EXE2CopyDatatoSQL.json** and click on **OK**. 
    and then click on **Validate** to check if there any errors.
@@ -24,24 +24,26 @@
 
 2. FHV SETUP ONLY,YellowCab SETUP ONLY and GreenCab SETUP ONLY are the notebooks which you imported in Exercise 2.
 
-3. Follow the instructions(Replace the Stoarge account name) in the notebook and Click on **Run** to execute the Notebook **FHV SETUP ONLY**
+3. **FHV SETUP ONLY** notebook copies the data from **fhvbackup** folder to **fhv** whereas **YellowCab SETUP ONLY** copies the data from **yellow** folder to **yellowcuratedbackup** and **GreenCab SETUP ONLY** copies the data from **green** folder to **greencuratedbackup** respectively.
 
-4.  Follow the instructions and Run the Notebook **YellowCab SETUP ONLY**
+4. Follow the instructions in the notebook **replace the Storage account name wherever required** and Click on **Run** to execute the notebook **FHV SETUP ONLY**
 
-5.  Follow the instructions and Run the Notebook **GreenCab SETUP ONLY**
+5. Follow the instructions in the notebook **replace the Storage account name wherever required** and Click on **Run** to execute the notebook **YellowCab SETUP ONLY**
+
+6. Follow the instructions in the notebook **replace the Storage account name wherever required** and Click on **Run** to execute the notebook **GreenCab SETUP ONLY**
 
 
 ### Task 3: Create the PowerBI dataset.
 
-1. Upload **Marketsharepbiview_PBI.csv** into the **Tempdata** folder by clicking on **Data** on the Left Pane, then Select tempdata      container and then click on **Upload**.
+1. Upload **Marketsharepbiview_PBI.csv** into the **tempdata** folder by clicking on **Data** on the Left Pane, then Select **tempdata**    container and then click on **Upload**.
 
    ![marketshare](images/28.png)
 
-2. Browse for **Marketsharepbiview_PBI.csv** ,navigate to C:\LabFiles\Building-an-end-to-end-analytics-pipeline-in-Microsoft-Azure master\labfiles\Marketsharepbiview_PBI.csv and Select   Marketsharepbiview_PBI.csvthen click on **Done**.
+2. Browse for **Marketsharepbiview_PBI.csv** ,navigate to **C:\LabFiles\Building-an-end-to-end-analytics-pipeline-in-Microsoft-Azure master\labfiles\Marketsharepbiview_PBI.csv** and Select the file Marketsharepbiview_PBI.csv then select **upload** button followed by **Done**.
 
    ![marketsharepbi](images/29.png)
 
-3. Click on **Develop** on the left Pane and then import the Notebook **PBIReadViewDataIntoSQLPool**
+3. Click on **Develop->Notebooks** on the left Pane and then import the Notebook **PBIReadViewDataIntoSQLPool**
 
    ![pbi notebook](images/30.png)
 
@@ -53,7 +55,7 @@
 
    ![configure session](images/32.png)
 
-6. Open the notebook **PBIReadViewDataIntoSQLPool** and Update the ADLS storage account name in Cell 1 and Cell 3 and Click on **Run All**.
+6. Open the notebook **PBIReadViewDataIntoSQLPool** and **Update the ADLS storage account name in Cell 1 and Cell 3** and Click on **Run All**.
 
    ![Run notebook](images/33.png)
 
@@ -77,7 +79,7 @@
 
     ![connect](images/38.png)
 
-12. Click on **Marketsharepbiview_PBI** (previously created in the step1) and then click on **Load Data**.  
+12. Select **Marketsharepbiview_PBI** and then click on **Load Data**.  
 
     ![load data](images/39.png)
 
