@@ -79,11 +79,11 @@
 
     ![connect](images/38.png)
 
-12. Select **Marketsharepbiview_PBI** and then click on **Load Data**.  
+12. Select **Marketsharepbiview_PBI** and then click on **Load Data**. Click on **Ok** if a dialog box of Connection Settings appears.
 
     ![load data](images/39.png)
 
-13. Publish your Desktop PBI to the Power BI workspace that you linked to your Synapse workspace.
+13. Wait until the data loading process is completed and then Publish your Desktop PBI to the Power BI workspace that is linked to your Synapse workspace.
 
     ![pbi publish](images/40.png)
 
