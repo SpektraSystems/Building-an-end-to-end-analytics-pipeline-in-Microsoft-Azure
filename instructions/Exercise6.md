@@ -193,6 +193,8 @@ the curated data is loaded in the SQL Pool.
    ![activity runs](images/064.png)
 
    ![activity runs status](images/065.png)
+   
+   ![both pipeline runs](images/066.png)
 
 5. You can get the detail of an activity by clicking to the binocular icon only if the status is already is already succeeded. In this case, you can see the performance of a copy command activity. Check the various details based on the different activities you ran. (Data Flow, notebook, SQL Script)
 
