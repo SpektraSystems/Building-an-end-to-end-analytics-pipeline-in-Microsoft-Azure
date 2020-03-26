@@ -6,9 +6,9 @@ This section is very important to create a pipeline with parallel activities to 
 
 - In this notebook you will see the power of the AAD passthrough between compute and storage whether it’s a data lake or a database. You will see how simple it is to write into a SQL Pool table with Spark thanks to the connector. No need to create password, identity, external table, format sources. It’s all managed by the connector!
 
-1. Go into the **Develop** section
+1. Go into the **Develop->Notebooks** section
 
-2. Select the notebook section and click on the notebook **EXE2 YellowCab**.**Replace the storage account name** in the cells whereever required.
+2. Select the notebook **EXE2 YellowCab**. **Replace the storage account name** in the cells whereever required.
 
 3. Replace the **sqlpoolname to sqlpool** and **storage account name** in cell 5.
 
@@ -45,9 +45,9 @@ This section is very important to create a pipeline with parallel activities to 
 
    ![add source](images/46.png)
 
-6. Select the dataset **GreenCab**
+6. Select the source dataset as **GreenCab**
 
-7. Call the output stream name **GreenCab**
+7. Give the output stream name as **GreenCab**
 
 8. Select **Enable** sampling
 
@@ -99,7 +99,7 @@ This section is very important to create a pipeline with parallel activities to 
 
     ![automapping](images/54.png)
 
-23. Remove the columns: vendorID, lpepPickupDateTime, lpepDropoffDateTime, tripDistance,rateCodeId, storeAndFwdFlag, paymentType, fareAmount, extra, mtaTax,improvementSurcharge, tollsAmount, ehailFee, tripType.
+23. Remove the columns if required: vendorID, lpepPickupDateTime, lpepDropoffDateTime, tripDistance,rateCodeId, storeAndFwdFlag, paymentType, fareAmount, extra, mtaTax,improvementSurcharge, tollsAmount, ehailFee, tripType.
 
     ![columns](images/55.png)
 
@@ -168,7 +168,9 @@ the curated data is loaded in the SQL Pool.
 
 2. Select the pipeline **EXE2CopyDatatoSQL** in the Pipelines
 
-3. Check the various activities run in the pipeline
+3. **Publish the Pipeline and then Select Add trigger and Trigger now 
+
+4. Check the various activities run in the pipeline
 
    ![activities](images/62.png)
 
