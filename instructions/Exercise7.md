@@ -4,9 +4,9 @@ In this exercise you will be able to create a Power BI Report and build a visual
 
 ### Task 1: Create a Power BI Report
 
-1. Click on the Power BI Report within the synapse workpsace.
+1. Click on the existing Power BI Report within the synapse workpsace.
 
-  - Navigate to Develop->Power BI->PowerBI report and select the PowerBI report.
+  - Navigate to Develop->Power BI->PowerBI report and select the PowerBI report that you created in previous exercises.
   
     ![powerbi report](images/70.png)
 
@@ -24,7 +24,7 @@ In this exercise you will be able to create a Power BI Report and build a visual
 
    ![report](images/74.png)
 
-5. You can Save the Report to the Workspace, You can view the report in both Synapse Analytics and PowerBI
+5. You can save the report by clicking on to File->**Save the Report** to the Workspace, You can view the report in both Synapse Analytics and PowerBI
 
    ![save report](images/75.png)
    
