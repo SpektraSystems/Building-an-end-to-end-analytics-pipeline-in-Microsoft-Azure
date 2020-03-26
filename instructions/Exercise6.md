@@ -184,7 +184,7 @@ the curated data is loaded in the SQL Pool.
 
    ![pipeline runs](images/63.png)
 
-3. Check the status of your pipeline. It should be in-progress
+3. Check the status of your pipeline **EXE2CopyDatatoSQL**. It should be in-progress where as the other pipeline **GreenCabTransformation** that you triggered in task 2 would be succeeded now.
 
 4. To understand at a more granular level, the status of the activities in the pipeline, click on the pipeline
 
