@@ -61,7 +61,7 @@
    
    - Browse to the File Path nyctlc/fhv
    
-   - Click on **OK**.The first dataset is now created.
+   - Click on **OK**,the first dataset is now created.Similarly create the rest datasets
 
    ![fhv dataset](images/23.png)
 
