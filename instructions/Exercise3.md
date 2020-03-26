@@ -18,7 +18,7 @@
    
 ### Task 2: Create Tables in SQL Pool.
  
- 1. Execute the SQL script **CreateStagingBackupTables SETUP ONLY** which you imported in Exercise 2.Make sure you are connected to **sqlpool**
+ 1. Navigate to **Develop->SQL scripts**, Select and execute the SQL script **CreateStagingBackupTables SETUP ONLY** that you imported in exercise 2.Make sure you are connected to **sqlpool**
  
  2. Click on **Run**
  
@@ -29,7 +29,7 @@
  
 ### Task 3: Create Stored Procedures in SQL Pool.
  
-1. Execute the SQL script **CreateStoredProcedures SETUP ONLY** which you imported in Exercise 2.Make sure you are connected to **sqlpool**
+1. Navigate to **Develop->SQL scripts**, Select and execute the SQL script **CreateStoredProcedures SETUP ONLY** that you imported in Exercise 2.Make sure you are connected to **sqlpool**
 
 2. Click on **Run** 
 
@@ -37,6 +37,7 @@
 
    ![stored procs ](images/19.png)
 
+4.**Publish** after creating both tables and Stored Procedures.
 
 ### Task 4: Create Datasets for the pipeline.
 
@@ -61,15 +62,12 @@
    - Browse to the File Path nyctlc/fhv
    
    - Click on **OK**.The first dataset is now created.
-   
-   - **Publish** the changes made.
 
    ![fhv dataset](images/23.png)
 
-2. Similarly create another 16 datasets by following the below list.Publish the changes made or else the datasets won't be reflected.
-
+2. Similarly create another 16 datasets by following the below list.
    ![datasets sixteen ](images/24.png)
 
-3. Make sure 17 datasets are created.
+3. Make sure 17 datasets are created.Click on **Publish All** then click on **Publish** to commit the changes you have made.
    
    Click **Next** to go to the next exercise.
