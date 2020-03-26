@@ -2,9 +2,9 @@
 
 ## Abstract and learning objectives
 
-Driving Company provides payment processing services for businesses. It is designing and implementing a Proof of Concept (PoC) for a unified data analytics platform. Their soft goals is to bring siloed teams to work together on a single platform.
+Driving Company provides payment processing services for business. It is designing and implementing a Proof of Concept (PoC) for a unified data analytics platform. Their soft goals is to bring siloed teams to work together on a single platform.
 
-In this lab, you will play the role of various persona: a data engineer, a business analyst and a datascientist. The workspace is already setup in before the hands on part so you can focus on some of the core development capabilities of Azure Synapse Analytics.
+In this lab, you will play the role of various persona: a data engineer, a business analyst and a datascientist. The workspace is awill be setup by you in before the hands on part so you can focus on some of the core development capabilities of Azure Synapse Analytics.
 
 By the end of this workshop, you will have performed a non-exhaustive list of operations that combine the strength of Big Data and SQL analytics into a single platform.
 
