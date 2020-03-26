@@ -8,7 +8,9 @@ This section is very important to create a pipeline with parallel activities to 
 
 1. Go into the **Develop** section
 
-2. Select the notebook section and click on the notebook **EXE2 YellowCab**.**Replace the storage account name** whereever required.
+2. Select the notebook section and click on the notebook **EXE2 YellowCab**.**Replace the storage account name** in the cells whereever required.
+
+3. Replace the **sqlpoolname to sqlpool** and **storage account name** in cell 5.
 
 3. Configure and author your notebook:
    - Attach your **Spark Pool**
