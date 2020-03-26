@@ -83,13 +83,13 @@
 
     ![load data](images/39.png)
 
-13. Wait until the data loading process is completed and then Publish your Desktop PBI to the Power BI workspace that is linked to your Synapse workspace.
+13. Wait until the data loading process is completed and then Publish your PBI report to the Power BI workspace that is linked to your Synapse workspace.
 
     ![pbi publish](images/40.png)
 
 14. Make sure you publish on the PBI Workspace created by you.Click on **Select**.
 
-    ![pbi workpsace](images/41.png)
+    ![pbi workpsace](images/041.png)
 
 15. Go back to the Synapse Workspace and then click on Finish and refresh
 
