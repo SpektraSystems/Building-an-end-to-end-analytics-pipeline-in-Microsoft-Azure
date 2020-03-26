@@ -66,7 +66,7 @@
    ![fhv dataset](images/23.png)
 
 2. Similarly create another 16 datasets by following the below list.
-   ![datasets sixteen ](images/24.png)
+   ![datasets sixteen ](images/024.png)
 
 3. Make sure 17 datasets are created.Click on **Publish All** then click on **Publish** to commit the changes you have made.
    
