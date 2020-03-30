@@ -30,9 +30,9 @@
 
 4. Follow the instructions in the notebook **replace the Storage account name in cell 1 and cell 3** , **replace the primary key in cell 1 with the key1 of the storage account** and Click on **Run** to execute the notebook **FHV SETUP ONLY**
 
-5. Follow the instructions in the notebook **replace the Storage account name in cell 1 and cell 4** and Click on **Run** to execute the notebook **YellowCab SETUP ONLY**
+5. Follow the instructions in the notebook **replace the Storage account name in cell 1 and cell 4**,**replace the primary key in cell 1 with the key1 of the storage account** and Click on **Run** to execute the notebook **YellowCab SETUP ONLY**
 
-6. Follow the instructions in the notebook **replace the Storage account name wherever required** and Click on **Run** to execute the notebook **GreenCab SETUP ONLY**
+6. Follow the instructions in the notebook **replace the Storage account name in cell 1 and cell 4**,**replace the primary key in cell 1 with the key1 of the storage account** and Click on **Run** to execute the notebook **GreenCab SETUP ONLY**
 
 7. **Publish** to save the changes.
 
