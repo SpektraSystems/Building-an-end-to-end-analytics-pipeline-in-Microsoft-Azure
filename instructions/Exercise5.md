@@ -12,8 +12,6 @@ This section will highlight how you can explore data using the engine of your ch
 
 2. **Run** this script to see how SQL on demand queries the file and returns the first 100 rows of that file with the header allowing you to easily explore data in the file.
 
-3. Click on **Publish** to save the changes.
-
 ### Task 2: Explore the lake and create a table with Spark
 
 1. Similarly, now go to the folder **holidaybackup/processed**. 
@@ -23,5 +21,7 @@ This section will highlight how you can explore data using the engine of your ch
 3. Attach the notebook to a **Spark pool** and Click on **run** to execute the command.
 
    ![holiday backup](images/043.png)
+   
+4. **Publish** the changes after performing task 1 and task 2.
 
    Click **Next** to go to the next exercise.
