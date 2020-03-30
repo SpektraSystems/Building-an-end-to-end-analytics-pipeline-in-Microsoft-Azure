@@ -34,6 +34,7 @@
 
 6. Follow the instructions in the notebook **replace the Storage account name wherever required** and Click on **Run** to execute the notebook **GreenCab SETUP ONLY**
 
+7. **Publish** to save the changes.
 
 ### Task 3: Create the PowerBI dataset.
 
