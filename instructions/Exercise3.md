@@ -37,8 +37,6 @@
 
    ![stored procs ](images/19.png)
 
-4. **Publish** after creating both tables and Stored Procedures.
-
 ### Task 4: Create Datasets for the pipeline.
 
 1. Navigate to Data->Datasets-> **New Dataset**
