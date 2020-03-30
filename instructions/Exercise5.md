@@ -22,6 +22,6 @@ This section will highlight how you can explore data using the engine of your ch
 
 3. Attach the notebook to a **Spark pool** and Click on **run** to execute the command.
 
-   ![holiday backup](images/43.png)
+   ![holiday backup](images/043.png)
 
    Click **Next** to go to the next exercise.
