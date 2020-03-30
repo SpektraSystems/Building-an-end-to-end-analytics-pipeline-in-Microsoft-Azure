@@ -61,7 +61,7 @@ This section is very important to create a pipeline with parallel activities to 
 
 10. On Source Settings Click on **Open** to edit the **GreenCab** Dataset 
 
-    ![greencab](images/49.png)
+    ![greencab](images/049.png)
 
 11. **Import schema** From connection/store
 
