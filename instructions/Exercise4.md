@@ -58,7 +58,7 @@
 
    ![configure session](images/32.png)
 
-6. Open the notebook **PBIReadViewDataIntoSQLPool** and **Update the ADLS storage account name in Cell 1 and Cell 3** and Click on **Run All**.
+6. Open the notebook **PBIReadViewDataIntoSQLPool** and **Update the ADLS storage account name in Cell 1 and Cell 3** and Click on **Run All** and **Publish** the changes.
 
    ![Run notebook](images/33.png)
 
