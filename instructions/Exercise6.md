@@ -150,13 +150,13 @@ This section is very important to create a pipeline with parallel activities to 
 - In this section, we will create stored procedures in the SQL Pool that will be triggered in the pipeline once
 the curated data is loaded in the SQL Pool.
 
-1. Open the SQL script in the **Develop section** called **EXE 2 StoredProceduresCabs**. This script will create four stored procedures that you will later integrate in your pipeline once the loadoperation in the SQL Pool happens.
+1. Open the SQL script in the **Develop section** called **EXE 2 StoredProceduresCabs**. Make sure you are connected to **sqlpool**.This script will create four stored procedures that you will later integrate in your pipeline once the loadoperation in the SQL Pool happens.
  
 2. Click on **Run** and it will run the entire SQL script
 
    ![run sql script](images/60.png)
 
-3. Check that you can see the four stored procedures by browsing your SQL Pool:
+3. Check that you can see the four stored procedures by navigating to **Data->Databases->sql pool->Programmability->Stored Procedures**.
 
    ![stored procedures ](images/61.png)
 
