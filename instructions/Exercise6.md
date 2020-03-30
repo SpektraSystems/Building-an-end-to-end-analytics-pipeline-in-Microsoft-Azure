@@ -121,7 +121,7 @@ This section is very important to create a pipeline with parallel activities to 
 
 31. For the File system in the file path, write **tempdata**
 
-32. Click on **Finish**
+32. Click on **Ok**
 
 33. If you preview the data of GreenCabSink, you should see the following:
 
