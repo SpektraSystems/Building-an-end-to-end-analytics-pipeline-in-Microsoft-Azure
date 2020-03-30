@@ -14,7 +14,7 @@
    Open the file in the notepad and **copy the code** as you will be using it in the next step.
    
 4. Now click on **Code** on the right corner of the page and paste the code that you copied in the previous step and click on **OK**. 
-   Then click on **Validate** to check if there any errors.
+   Then click on **Validate** to check if there any errors and **Publish**
 
    ![code](images/27.png)
    
