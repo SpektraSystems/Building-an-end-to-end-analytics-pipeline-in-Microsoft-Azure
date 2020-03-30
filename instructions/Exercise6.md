@@ -43,7 +43,7 @@ This section is very important to create a pipeline with parallel activities to 
 
 5. Click on **Add Source**
 
-   ![add source](images/46.png)
+   ![add source](images/046.png)
 
 6. Select the source dataset as **GreenCab**
 
