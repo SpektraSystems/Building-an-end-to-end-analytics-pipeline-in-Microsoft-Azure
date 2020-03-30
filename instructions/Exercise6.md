@@ -18,14 +18,14 @@ This section is very important to create a pipeline with parallel activities to 
    - Define the configuration of the session. Defining the configuration of a session enables you to increase the resources of running a notebook. Use **4 executors** of medium size for that notebook. You want to run it fast!
 
    ![configure session](images/80.png)
-
-4. Click on **Publish**
-
-   ![publish](images/44.png)
-
-5. Click on **Run All**
+   
+4. Click on **Run All**
 
    ![runall](images/45.png)
+
+5. Click on **Publish**
+
+   ![publish](images/44.png)
 
 ### Task 2: Create and run a Dataflow with GreenCab dataset
 
