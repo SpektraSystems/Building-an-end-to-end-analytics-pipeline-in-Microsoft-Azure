@@ -170,7 +170,7 @@ the curated data is loaded in the SQL Pool.
 
 3. Select **Add trigger** then followed by **Trigger now** to trigger the pipeline.
 
-4. Check the various activity runs in the pipeline
+4. Check the various activity runs in the pipeline in the monitor section ->Pipeline runs
 
    ![activities](images/62.png)
 
@@ -178,7 +178,7 @@ the curated data is loaded in the SQL Pool.
 
 - Synapse will offer a single pane of glass to monitor activities. We will first look at the pipelines that you have triggered.
 
-1. Click at the section **Monitoring**
+1. Click at the section **Monitor**
 
 2. Click into **Pipeline runs**, make sure that the time of filtering is set to Last 30 days
 
