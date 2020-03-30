@@ -66,37 +66,29 @@
 
    ![pbi dataset](images/34.png)
 
-8. Click on **Start** on the page that comes up.
+8. Click on **sql pool** and download the .pbids file
 
-   ![start](images/35.png)
+   ![pbi](images/035.png)
 
-9. Click on **sqlpool** and then click on Continue.
-
-   ![sql pool](images/36.png)
-
-10. Now click on **Download**
-
-    ![download](images/37.png)
-
-11. Open the downloaded file in the Power BI desktop and Log into the Power BI Desktop using Microsoft Account and **sign-in**. Then click on **Connect**
+9. Open the downloaded file in the Power BI desktop and Log into the Power BI Desktop using Microsoft Account and **sign-in**. Then click on **Connect**
 
     ![connect](images/38.png)
 
-12. Select **Marketsharepbiview_PBI** and then click on **Load Data**. Click on **Ok** if a dialog box of Connection Settings appears.
+10. Select **Marketsharepbiview_PBI** and then click on **Load Data**. Click on **Ok** if a dialog box of Connection Settings appears.
 
     ![load data](images/39.png)
 
-13. Wait until the data loading process is completed and then Publish your PBI report to the Power BI workspace that is linked to your Synapse workspace.
+11. Wait until the data loading process is completed and then Publish your PBI report to the Power BI workspace that is linked to your Synapse workspace.
 
     ![pbi publish](images/40.png)
 
-14. Make sure you publish on the PBI Workspace created by you.Select the **labignitePBIxxxxxx** click on **Select**.Wait until publishing completes and Click on **Got it **.
+12. Make sure you publish on the PBI Workspace created by you.Select the **labignitePBIxxxxxx** click on **Select**.Wait until publishing completes and Click on **Got it **.
 
     ![pbi workpsace](images/041.png)
 
-15. Go back to the Synapse Workspace and then click on Finish and refresh
+13. Go back to the Synapse Workspace and then click on **Close and refresh**
 
-    ![finish and refresh](images/42.png)
+    ![close and refresh](images/042.png)
     
     Click **Next** to go to the next exercise.
 
