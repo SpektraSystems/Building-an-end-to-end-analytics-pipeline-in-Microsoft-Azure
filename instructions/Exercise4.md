@@ -28,7 +28,7 @@
 
 3. **FHV SETUP ONLY** notebook copies the data from **fhvbackup** folder to **fhv** whereas **YellowCab SETUP ONLY** copies the data from **yellow** folder to **yellowcuratedbackup** and **GreenCab SETUP ONLY** copies the data from **green** folder to **greencuratedbackup** respectively.
 
-4. Follow the instructions in the notebook **replace the Storage account name wherever required** and Click on **Run** to execute the notebook **FHV SETUP ONLY**
+4. Follow the instructions in the notebook **replace the Storage account name in cell 1 and cell 3** , **replace the primary key in cell 1 with the key1 of the storage account** and Click on **Run** to execute the notebook **FHV SETUP ONLY**
 
 5. Follow the instructions in the notebook **replace the Storage account name wherever required** and Click on **Run** to execute the notebook **YellowCab SETUP ONLY**
 
