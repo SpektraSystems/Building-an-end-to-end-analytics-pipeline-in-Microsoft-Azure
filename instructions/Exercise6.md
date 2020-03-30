@@ -168,7 +168,7 @@ the curated data is loaded in the SQL Pool.
 
 2. Select the pipeline **EXE2CopyDatatoSQL** in the Pipelines
 
-3. **Publish the Pipeline** and then Select **Add trigger** then followed by **Trigger now**
+3. Select **Add trigger** then followed by **Trigger now** to trigger the pipeline.
 
 4. Check the various activity runs in the pipeline
 
