@@ -6,7 +6,7 @@ This section will highlight how you can explore data using the engine of your ch
    
 - In this task, you will browse your data lake. 
    
-1. Go into the **Yellow** folder, **select the year and month** folders of your choice, then **select a file**, right click and select **New SQL script-Select Top 100 rows**. A script is automatically generated. 
+1. Go into the **nyctlc** container and **Yellow** folder, **select the year and month** folders of your choice, then **select a file**, right click and select **New SQL script-Select Top 100 rows**. A script is automatically generated. 
 
 2. **Run** this script to see how SQL on demand queries the file and returns the first 100 rows of that file with the header allowing you to easily explore data in the file.
 
