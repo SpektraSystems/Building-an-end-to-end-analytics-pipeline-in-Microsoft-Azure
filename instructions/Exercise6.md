@@ -206,7 +206,7 @@ the curated data is loaded in the SQL Pool.
 
 1. Click at the section **Monitoring**
 
-2. Click into Spark Applications
+2. Click into **Apache Spark Applications**
 
    ![spark applications](images/67.png)
 
