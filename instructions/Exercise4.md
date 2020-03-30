@@ -62,7 +62,7 @@
 
    ![Run notebook](images/33.png)
 
-7. Navigate to **Develop** on the left pane and click on **Power BI datasets** under the **Power BI Linked service**. Then Click on **+ New Power BI dataset.**
+7. Navigate to **Develop** on the left pane and click on **Power BI datasets** under the **Power BI **. Then Click on **+ New Power BI dataset.**
 
    ![pbi dataset](images/34.png)
 
