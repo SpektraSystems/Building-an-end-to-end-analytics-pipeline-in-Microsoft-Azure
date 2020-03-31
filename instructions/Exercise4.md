@@ -49,44 +49,36 @@
 3. Click on **Develop->Notebooks** on the left Pane and then import the Notebook **PBIReadViewDataIntoSQLPool**
 
    ![pbi notebook](images/30.png)
-
-4. Click on **Configure session** on the Right side of the page.
-
-   ![session](images/31.png)
-
-5. Configure the session as follows:
-
-   ![configure session](images/32.png)
-
-6. Open the notebook **PBIReadViewDataIntoSQLPool** and **Update the ADLS storage account name in Cell 1 and Cell 3** and Click on **Run All** and **Publish** the changes.
+   
+4. Open the notebook **PBIReadViewDataIntoSQLPool** and **Update the ADLS storage account name in Cell 1 and Cell 3** and Click on **Run All** and **Publish** the changes.
 
    ![Run notebook](images/33.png)
 
-7. Navigate to **Develop** on the left pane and click on **Power BI datasets** under the **Power BI **. Then Click on **+ New Power BI dataset.**
+5. Navigate to **Develop** on the left pane and click on **Power BI datasets** under the **Power BI **. Then Click on **+ New Power BI dataset.**
 
    ![pbi dataset](images/34.png)
 
-8. Click on **sql pool** and download the .pbids file
+6. Click on **sql pool** and download the .pbids file
 
    ![pbi](images/035.png)
 
-9. Open the downloaded file in the Power BI desktop and Log into the Power BI Desktop using Microsoft Account and **sign-in**. Then click on **Connect**
+7. Open the downloaded file in the Power BI desktop and Log into the Power BI Desktop using Microsoft Account and **sign-in**. Then click on **Connect**
 
     ![connect](images/38.png)
 
-10. Select **Marketsharepbiview_PBI** and then click on **Load Data**. Click on **Ok** if a dialog box of Connection Settings appears.
+8. Select **Marketsharepbiview_PBI** and then click on **Load Data**. Click on **Ok** if a dialog box of Connection Settings appears.
 
     ![load data](images/39.png)
 
-11. Wait until the data loading process is completed and then Publish your PBI report to the Power BI workspace that is linked to your Synapse workspace.
+9. Wait until the data loading process is completed and then Publish your PBI report to the Power BI workspace that is linked to your Synapse workspace.
 
     ![pbi publish](images/40.png)
 
-12. Make sure you publish on the PBI Workspace created by you.Select the **labignitePBIxxxxxx** click on **Select**.Wait until publishing completes and Click on **Got it **.
+10. Make sure you publish on the PBI Workspace created by you.Select the **labignitePBIxxxxxx** click on **Select**.Wait until publishing completes and Click on **Got it **.
 
     ![pbi workpsace](images/041.png)
 
-13. Go back to the Synapse Workspace and then click on **Close and refresh**
+11. Go back to the Synapse Workspace and then click on **Close and refresh**
 
     ![close and refresh](images/042.png)
     
