@@ -62,11 +62,11 @@
    - Click on **OK**,the first dataset is now created.Similarly create the remaining datasets
 
    ![fhv dataset](images/23.png)
-
-2. Similarly create another 16 datasets by following the below list.
-   ![datasets sixteen ](images/024.png)
    
-3. **Note**: Please enter the file path information manually for the datasets that uses Azure Blob Storage and the Azure Open Dataset linked service.
+2. **Note**: Please enter the file path information manually for the datasets that uses Azure Blob Storage and the Azure Open Dataset linked service.
+
+3. Similarly create another 16 datasets by following the below list.
+   ![datasets sixteen ](images/024.png)
 
 4. Make sure 17 datasets are created.Click on **Publish All** then click on **Publish** to commit the changes you have made.
    
