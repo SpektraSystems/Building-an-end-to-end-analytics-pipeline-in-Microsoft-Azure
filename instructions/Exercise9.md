@@ -9,7 +9,7 @@ In this section, we will look at the same query you ran in a SQL Pool (Exercise 
 3. Replace the storage account name whereever required and  **Run** the script
 4. Check that the three views are available (refresh if needed the SQL Analytics On-Demand).
 
-   ![views](images/84.png)
+   ![views](images/084.png)
 
 5. **Example**: Run a query that will aggregate the count of rides per day for each view and join these three views together per day .Try to display the results in a chart similar to below:
 
