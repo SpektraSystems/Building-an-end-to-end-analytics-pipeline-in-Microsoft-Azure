@@ -74,7 +74,7 @@
 
     ![pbi publish](images/40.png)
 
-10. Make sure you publish on the PBI Workspace created by you.Select the **labignitePBIxxxxxx** click on **Select**.Wait until publishing completes and Click on **Got it **.
+10. Make sure you publish on the PBI Workspace created by you.Select the **labignitePBIxxxxxx** click on **Select**.Wait until publishing completes and Click on **Got it**.
 
     ![pbi workpsace](images/041.png)
 
