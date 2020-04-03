@@ -9,8 +9,10 @@ This section will highlight how you can explore data using the engine of your ch
 1. Go into the **nyctlc** container and **Yellow** folder, **select the year and month** folders of your choice, then **select a file**, right click and select **New SQL script-Select Top 100 rows**. A script is automatically generated. 
 
    ![yellow sql](images/sql.png)
+   
+2.Connect to **sqlondemand**
 
-2. **Run** this script to see how SQL on demand queries the file and returns the first 100 rows of that file with the header allowing you to easily explore data in the file.
+3. **Run** this script to see how SQL on demand queries the file and returns the first 100 rows of that file with the header allowing you to easily explore data in the file.
 
 ### Task 2: Explore the lake and create a table with Spark
 
