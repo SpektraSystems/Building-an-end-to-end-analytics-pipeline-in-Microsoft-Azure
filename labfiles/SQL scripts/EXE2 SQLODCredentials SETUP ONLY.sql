@@ -1,1 +1,1 @@
-  CREATE USER [<AAD User ID>@CloudLabsAIoutlook.onmicrosoft.com] FROM EXTERNAL PROVIDER;
+  CREATE USER [<AAD User ID>@msazurelabs.onmicrosoft.com] FROM EXTERNAL PROVIDER;
