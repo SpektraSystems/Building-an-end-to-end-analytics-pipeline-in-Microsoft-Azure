@@ -25,7 +25,7 @@
     "sparkMaxNodeCount": "3",
     "sparkNodeCount": "0",
     "sparkNodeSizeFamily": "MemoryOptimized",
-    "sparkNodeSize": "Medium",
+    "sparkNodeSize": "Small",
     "sparkAutoPauseEnabled": "true",
     "sparkAutoPauseDelayInMinutes": "5",
     "sparkVersion": "2.4",
