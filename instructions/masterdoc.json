@@ -4,39 +4,39 @@
     "Language": "English",
     "Files": [
       {
-        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/Building-an-end-to-end-analytics-pipeline-in-Microsoft-Azure/master/instructions/1.md",
+        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/Building-an-end-to-end-analytics-pipeline-in-Microsoft-Azure/master/instructions/01.md",
         "Order": 1
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/Building-an-end-to-end-analytics-pipeline-in-Microsoft-Azure/master/instructions/2.md",
+        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/Building-an-end-to-end-analytics-pipeline-in-Microsoft-Azure/master/instructions/02.md",
         "Order": 2
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/Building-an-end-to-end-analytics-pipeline-in-Microsoft-Azure/master/instructions/3.md",
+        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/Building-an-end-to-end-analytics-pipeline-in-Microsoft-Azure/master/instructions/03.md",
         "Order": 3
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/Building-an-end-to-end-analytics-pipeline-in-Microsoft-Azure/master/instructions/4.md",
+        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/Building-an-end-to-end-analytics-pipeline-in-Microsoft-Azure/master/instructions/04.md",
         "Order": 4
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/Building-an-end-to-end-analytics-pipeline-in-Microsoft-Azure/master/instructions/5.md",
+        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/Building-an-end-to-end-analytics-pipeline-in-Microsoft-Azure/master/instructions/05.md",
         "Order": 5
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/Building-an-end-to-end-analytics-pipeline-in-Microsoft-Azure/master/instructions/6.md",
+        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/Building-an-end-to-end-analytics-pipeline-in-Microsoft-Azure/master/instructions/06.md",
         "Order": 6
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/Building-an-end-to-end-analytics-pipeline-in-Microsoft-Azure/master/instructions/7.md",
+        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/Building-an-end-to-end-analytics-pipeline-in-Microsoft-Azure/master/instructions/07.md",
         "Order": 7
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/Building-an-end-to-end-analytics-pipeline-in-Microsoft-Azure/master/instructions/8.md",
+        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/Building-an-end-to-end-analytics-pipeline-in-Microsoft-Azure/master/instructions/08.md",
         "Order": 8
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/Building-an-end-to-end-analytics-pipeline-in-Microsoft-Azure/master/instructions/9.md",
+        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/Building-an-end-to-end-analytics-pipeline-in-Microsoft-Azure/master/instructions/09.md",
         "Order": 9
       }
       
