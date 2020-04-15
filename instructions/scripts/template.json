@@ -20,7 +20,7 @@
     "sqlServerSKU": "DW500c",
     "storageBlobDataContributorRoleID": "ba92f5b4-2d11-453d-a403-e96b0029c9fe",
     "defaultDataLakeStorageAccountUrl": "[concat('https://', variables('adlsStorageAccountName'), '.dfs.core.windows.net')]",
-    "sparkAutoScaleEnabled": "false",
+    "sparkAutoScaleEnabled": "true",
     "sparkMinNodeCount": "3",
     "sparkMaxNodeCount": "6",
     "sparkNodeCount": "0",
