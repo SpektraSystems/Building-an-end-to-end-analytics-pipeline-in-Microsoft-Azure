@@ -1,0 +1,25 @@
+{
+    "name":  "GreenCabCurated",
+    "type":  "Microsoft.Synapse/workspaces/datasets",
+    "properties":  {
+                       "linkedServiceName":  {
+                                                 "referenceName":  "CoreDataLakeStorageBackup",
+                                                 "type":  "LinkedServiceReference"
+                                             },
+                       "annotations":  [
+
+                                       ],
+                       "type":  "Parquet",
+                       "typeProperties":  {
+                                              "location":  {
+                                                               "type":  "AzureBlobFSLocation",
+                                                               "folderPath":  "greencuratedbackup",
+                                                               "fileSystem":  "nyctlc"
+                                                           },
+                                              "compressionCodec":  "snappy"
+                                          },
+                       "schema":  [
+
+                                  ]
+                   }
+}

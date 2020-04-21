@@ -1,0 +1,48 @@
+{
+    "name":  "HolidayBackup",
+    "type":  "Microsoft.Synapse/workspaces/datasets",
+    "properties":  {
+                       "linkedServiceName":  {
+                                                 "referenceName":  "CoreDataLakeStorageBackup",
+                                                 "type":  "LinkedServiceReference"
+                                             },
+                       "annotations":  [
+
+                                       ],
+                       "type":  "Parquet",
+                       "typeProperties":  {
+                                              "location":  {
+                                                               "type":  "AzureBlobFSLocation",
+                                                               "folderPath":  "Processed",
+                                                               "fileSystem":  "holidaybackup"
+                                                           },
+                                              "compressionCodec":  "snappy"
+                                          },
+                       "schema":  [
+                                      {
+                                          "name":  "countryOrRegion",
+                                          "type":  "UTF8"
+                                      },
+                                      {
+                                          "name":  "holidayName",
+                                          "type":  "UTF8"
+                                      },
+                                      {
+                                          "name":  "normalizeHolidayName",
+                                          "type":  "UTF8"
+                                      },
+                                      {
+                                          "name":  "isPaidTimeOff",
+                                          "type":  "BOOLEAN"
+                                      },
+                                      {
+                                          "name":  "countryRegionCode",
+                                          "type":  "UTF8"
+                                      },
+                                      {
+                                          "name":  "date",
+                                          "type":  "INT96"
+                                      }
+                                  ]
+                   }
+}

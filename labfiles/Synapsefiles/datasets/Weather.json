@@ -1,0 +1,120 @@
+{
+    "name":  "Weather",
+    "type":  "Microsoft.Synapse/workspaces/datasets",
+    "properties":  {
+                       "linkedServiceName":  {
+                                                 "referenceName":  "CoreDataLakeStorageBackup",
+                                                 "type":  "LinkedServiceReference"
+                                             },
+                       "annotations":  [
+
+                                       ],
+                       "type":  "Parquet",
+                       "typeProperties":  {
+                                              "location":  {
+                                                               "type":  "AzureBlobFSLocation",
+                                                               "folderPath":  "ISDWeather",
+                                                               "fileSystem":  "weather"
+                                                           },
+                                              "compressionCodec":  "snappy"
+                                          },
+                       "schema":  [
+                                      {
+                                          "name":  "usaf",
+                                          "type":  "UTF8"
+                                      },
+                                      {
+                                          "name":  "wban",
+                                          "type":  "UTF8"
+                                      },
+                                      {
+                                          "name":  "datetime",
+                                          "type":  "INT96"
+                                      },
+                                      {
+                                          "name":  "latitude",
+                                          "type":  "DOUBLE"
+                                      },
+                                      {
+                                          "name":  "longitude",
+                                          "type":  "DOUBLE"
+                                      },
+                                      {
+                                          "name":  "elevation",
+                                          "type":  "DOUBLE"
+                                      },
+                                      {
+                                          "name":  "windAngle",
+                                          "type":  "INT32"
+                                      },
+                                      {
+                                          "name":  "windSpeed",
+                                          "type":  "DOUBLE"
+                                      },
+                                      {
+                                          "name":  "temperature",
+                                          "type":  "DOUBLE"
+                                      },
+                                      {
+                                          "name":  "seaLvlPressure",
+                                          "type":  "DOUBLE"
+                                      },
+                                      {
+                                          "name":  "cloudCoverage",
+                                          "type":  "UTF8"
+                                      },
+                                      {
+                                          "name":  "presentWeatherIndicator",
+                                          "type":  "INT32"
+                                      },
+                                      {
+                                          "name":  "pastWeatherIndicator",
+                                          "type":  "INT32"
+                                      },
+                                      {
+                                          "name":  "precipTime",
+                                          "type":  "DOUBLE"
+                                      },
+                                      {
+                                          "name":  "precipDepth",
+                                          "type":  "DOUBLE"
+                                      },
+                                      {
+                                          "name":  "snowDepth",
+                                          "type":  "DOUBLE"
+                                      },
+                                      {
+                                          "name":  "stationName",
+                                          "type":  "UTF8"
+                                      },
+                                      {
+                                          "name":  "countryOrRegion",
+                                          "type":  "UTF8"
+                                      },
+                                      {
+                                          "name":  "p_k",
+                                          "type":  "UTF8"
+                                      },
+                                      {
+                                          "name":  "year",
+                                          "type":  "INT32"
+                                      },
+                                      {
+                                          "name":  "day",
+                                          "type":  "INT32"
+                                      },
+                                      {
+                                          "name":  "version",
+                                          "type":  "DOUBLE"
+                                      },
+                                      {
+                                          "name":  "year",
+                                          "type":  "UTF8"
+                                      },
+                                      {
+                                          "name":  "month",
+                                          "type":  "UTF8"
+                                      }
+                                  ]
+                   }
+}
