@@ -13,7 +13,7 @@
                        "typeProperties":  {
                                               "location":  {
                                                                "type":  "AzureBlobFSLocation",
-                                                               "folderPath":  " yellowcuratedbackup",
+                                                               "folderPath":  "yellowcuratedbackup",
                                                                "fileSystem":  "nyctlc"
                                                            },
                                               "compressionCodec":  "snappy"
